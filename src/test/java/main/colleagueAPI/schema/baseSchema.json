@@ -1,0 +1,22 @@
+{
+  "absences": [
+    {
+      "weekNumber": "##number",
+      "dayNameSequence": "##number",
+      "timeSequenceNumber": "##number",
+      "calendarStartDate": "##string",
+      "locationNumber": "##string",
+      "absenceReasonType": "##string",
+      "absenceStartDate": "##string",
+      "absenceEndDate": "##string",
+      "absenceDaysLost": "##string",
+      "absenceHoursLost": "##string",
+      "absenceToDelete": "##string",
+      "absenceCalculateOSP": "##string",
+      "absenceReasonDetail": "##string",
+      "absenceExpectedEndDate": "##string",
+      "absenceIsPaid": "##string",
+      "absenceEWC": "##string"
+    }
+  ]
+}

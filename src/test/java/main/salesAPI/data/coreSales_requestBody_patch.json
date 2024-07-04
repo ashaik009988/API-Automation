@@ -1,0 +1,25 @@
+{
+  "tender": {
+    "tender_id": "1",
+    "amount": "12.00",
+    "payment_date": "RUN_TIME",
+    "tender_type": "Cr/Dr Card",
+    "payment_basket_id": "string",
+    "payment_description": "string",
+    "payment_source_description": "string",
+    "card": {
+      "card_type": "MAESTRO",
+      "card_hash": "65454654***",
+      "legacy_card_hash": "string",
+      "masked_pan": "3345******55788",
+      "expiry_month": "0230",
+      "auth_desc": "string",
+      "additional_transaction_details": [
+        {
+          "key": "string",
+          "value": "string"
+        }
+      ]
+    }
+  }
+}

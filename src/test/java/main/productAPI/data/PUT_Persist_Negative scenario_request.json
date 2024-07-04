@@ -1,0 +1,263 @@
+{
+
+  "eventId":"A05D99A4-48FD-4B20-B28D-CEE3DAB1D277",
+
+  "description":"Danfoss RAS-C2 15mm Angled TRV \u0026 Lockshieldtest",
+  "approvalStatus":"approved",
+  "lifeCycleStatus":"MULTICHANNEL_READY",
+  "catalog": "GroupMasterProductCatalog",
+  "webCopy":"The RAS-C2 thermostatic radiator valve with unique flow selectable bi-directional valve",
+  "featuresAndBenefits":[
+    "Available in convenient combi packs",
+    "Packs also available with matching lockshield valves",
+    "Available in 8/10 \u0026 15mm sizes",
+    "10mm push-fit elbow version",
+    "High performance liquid sensor"
+  ],
+  "taxCode":"S",
+  "mainUom":"EA",
+  "sellingUom":"EA",
+  "unitPriceUom":"EA",
+  "supplierCode":"String",
+  "supplierPartNumber":"013G600500",
+  "keywords":[
+    "danfoss",
+    "15mm",
+    "combipack",
+    "trvs",
+    "valv"
+  ],
+  "cosshhRequired":true,
+  "dopRequired":true,
+  "epdRequired":true,
+  "techRequired":true,
+  "gilRequired":true,
+  "weeeRequired":true,
+  "weee":"123",
+  "palletHi":"123",
+  "palletTi":"123",
+  "sellOnly":true,
+  "onlineDate":"123",
+  "offlineDate":"123",
+  "gtin":"123",
+  "damAssetId":"123",
+  "explosivePrecursor":"123",
+  "singleUom":"123",
+  "origin":"GroupMasterProductCatalog",
+  "wickesDescription":"123",
+  "jdaDescription":"123",
+  "minOrderQuantity":2,
+  "equivalentDivisor":2,
+  "alternativeUomGroup":{
+    "unit":[
+      {
+        "name":"123",
+        "quantity":"123",
+        "units":"123",
+        "measure":"123",
+        "uom":"123",
+        "uomNumeric":"123",
+        "uomdescription":"123"
+      }
+    ]
+  },
+  "channelData":[
+    {
+      "status":"123",
+      "catalogId": "#(commonData.catalogId)",
+      "productCategory":[
+        "6109"
+      ],
+      "description":"RAS-C2 15mm Angled TRV \u0026 Lockshield",
+      "webCopy":"123",
+      "minOrderQuantity":"123",
+      "fulfilmentType":"STANDARD",
+      "searchBoostValue":"123",
+      "swapCode":"123",
+      "qualityRanking":"123",
+      "onlineDate":"123",
+      "offlineDate":"123",
+      "approvalStatus":"approved",
+      "brandName":"123",
+      "sellingUom":"EA",
+      "unitPriceUom":"EA",
+      "equivalentDivisor":"123",
+      "skuCode": "#(CommonData.skuCode)",
+      "discontinued":true,
+      "sellOnly":true,
+      "baseProduct":{
+        "gpid":"123",
+        "name":"123",
+        "variantAttribute":[
+          {
+            "id":"123",
+            "name":"123",
+            "type":"123",
+            "attributeUnit":[
+              {
+                "id":"123",
+                "symbol":"123",
+                "conversionFactor":3,
+                "conversionType":"123"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "singleDimensions":{
+    "length":2,
+    "height":2,
+    "width":2,
+    "weight":2,
+    "volume":2,
+    "quantity":2
+  },
+  "innerDimensions":{
+    "length":2,
+    "height":2,
+    "width":2,
+    "weight":2,
+    "volume":2,
+    "quantity":2
+  },
+  "outerDimensions":{
+    "length":2,
+    "height":2,
+    "width":2,
+    "weight":2,
+    "volume":2,
+    "quantity":2
+  },
+  "palletDimensions":{
+    "length":2,
+    "height":2,
+    "width":2,
+    "weight":2,
+    "volume":2,
+    "quantity":2
+  },
+  "jdaCaseDimensions":{
+    "length":2,
+    "height":2,
+    "width":2,
+    "weight":2,
+    "volume":2,
+    "quantity":2
+  },
+  "baseProduct":[
+    {
+      "gpid":"123",
+      "name":"123",
+      "variantAttribute":[
+        {
+          "id":"123",
+          "name":"123",
+          "type":"123",
+          "attributeUnit":[
+            {
+              "id":"123",
+              "symbol":"123",
+              "conversionFactor":2,
+              "conversionType":"123"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "explosiveOrPoison":true,
+  "components":[
+    {
+      "type":"123",
+      "supplier":"123",
+      "gpid":"123",
+      "quantity":"123",
+      "sku":[
+        {
+          "code":"123",
+          "catalogFamily":"123"
+        }
+      ]
+    }
+  ],
+  "supplierData":[
+    {
+      "partNumber":"123",
+      "supplierId":"123",
+      "gtin":[
+        {
+          "gtin":"123",
+          "uom":"123"
+        }
+      ]
+    }
+  ],
+  "attributeGroup":[
+    {
+      "groupId":"123",
+      "name":"123",
+      "attribute":[
+        {
+          "id":"123",
+          "name":"123",
+          "value":"123",
+          "unit":{
+            "id":"123",
+            "symbol":"123",
+            "conversionFactor":2,
+            "conversionType":"123"
+          }
+        }
+      ]
+    }
+  ],
+  "coreProperties":{
+    "property":[
+      {
+        "name":"123",
+        "value":"123",
+        "type":"123"
+      }
+    ]
+  },
+  "attributes": {
+    "storeBarcode": "21141843",
+    "unitOfMeasure": "EACH",
+    "equivalentDivisorMeasure": "1",
+    "caseWeight": "2.402",
+    "caseQty": "1",
+    "caseStdPack": "10",
+    "caseWeightUOM": "KG",
+    "warehouseNumber": "544",
+    "attributeSKUType": [
+      "N"
+    ],
+    "buyer": "SJ",
+    "salesType": "B",
+    "freightClass": "UK",
+    "serviceClass": "DEST",
+    "palletItem": "Y",
+    "newProduct": "NEW",
+    "distantShopping": "N",
+    "webDisplay": "N",
+    "businessUnit": "Showroom KB&I",
+    "multiChannelRange": "Y",
+    "pareto": "E",
+    "productLifecycle": "7",
+    "autoReplenMPQ": "1",
+    "dateDeleted": "2019-06-19",
+    "bulkSingleIndicator": "NONE",
+    "relatedSingleSKU": 0,
+    "bulkQty": 0,
+    "lifecycleFrom": "2014-11-19",
+    "jdaSupplierPartNumber": "43968"
+  },
+  "productSkus":[
+    {
+      "catalogFamily":"123",
+      "code":"123"
+    }
+  ]
+}

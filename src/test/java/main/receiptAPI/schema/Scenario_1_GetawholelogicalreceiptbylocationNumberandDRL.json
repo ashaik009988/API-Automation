@@ -1,0 +1,23 @@
+{
+  "results": [
+    {
+      "receipt": {
+        "locationNumber": "##string",
+        "drlNumber": "##string",
+        "productId": "##string",
+        "supplierCode": "##string",
+        "documentDate": "##string",
+        "purchaseOrderNumber": "##string",
+        "quantity": "#number",
+        "goodsTotal": "#number",
+        "status": "##string",
+        "closedDate": "##string",
+        "closingGoodsTotal": "#ignore"
+      },
+      "created": "##string",
+      "updated": "##string",
+      "thisVersion": "#number",
+      "latestVersion": "#number"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "searchItems": [
+    {
+      "fieldName": "description",
+      "operator": "=",
+      "fieldValue": "sajjk"
+    }
+  ]
+}

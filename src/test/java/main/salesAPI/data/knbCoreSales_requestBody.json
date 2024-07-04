@@ -1,0 +1,790 @@
+{
+  "transaction": {
+    "base_info": {
+      "event_date_time": "2022-12-21T13:12:00Z",
+      "processing_time": "2022-12-21T13:12:00Z",
+      "identifier": "OleksiiKTest",
+      "source_system_code": "Postman"
+    },
+    "store": {
+      "code": "8804",
+      "name": "NT-Trading Test Store",
+      "Region": {
+        "name": "Eighteen",
+        "division": {
+          "name": "Test",
+          "code": "04"
+        }
+      }
+    },
+    "handled_by": {
+      "employee_number": "625625",
+      "username": "Ole Ku",
+      "job_title": {
+        "Description": "Design Consultant"
+      }
+    },
+    "design_consultant": {
+      "employee_number": "625625",
+      "username": "Ole Ku",
+      "job_title": {
+        "Description": "Design Consultant"
+      }
+    },
+    "Order_CPT": {
+      "employee_number": "625625",
+      "username": "Ole Ku",
+      "job_title": {
+        "Description": "Design Consultant"
+      }
+    },
+    "order_status": {
+      "code": "Ordered"
+    },
+    "category": {
+      "code": "Kitchen"
+    },
+    "creation_week": 27,
+    "creation_period": 7,
+    "creation_year": 2022,
+    "created_on": "2022-07-21T13:12:00Z",
+    "order_date": "2022-07-21T13:12:00Z",
+    "delivery_date": "2022-07-10T10:20:57Z",
+    "order_id": "0x00000000003778SS",
+    "quote_id": "0x00000000002893DL",
+    "quote_number": "951635",
+    "expiry": "2022-10-01T00:00:00Z",
+    "proposed_payment_mode": "testvalueproposedpaymentmode",
+    "Ptc": "A",
+    "Ptc_date": "2022-12-03T00:00:00Z",
+    "dry_fit_estimate": "testvalue",
+    "lead_id": "0x0000000000197863",
+    "honoured_until_date": "2022-08-11T00:00:00Z",
+    "number": 456512,
+    "number_of_installation": 7,
+    "quote_status": {
+      "code": "Ordered"
+    },
+    "items": {
+      "installation_value": "1246",
+      "list_price": "74.02",
+      "total_discount": "0",
+      "total_price": "1320.02",
+      "company_offer_price": "74.02",
+      "discount_description": "string",
+      "discount_date_time": "string",
+      "number_of_installation": "7",
+      "line_items": [
+        {
+          "line_item_id": "0x000000000C452E15",
+          "line_item_status": "Installation",
+          "line_item_create_time": "2022-07-04T12:45:04Z",
+          "line_item_update_time": "2022-07-04T12:45:04Z",
+          "quantity": "1",
+          "total_discount": "0",
+          "total_sales_value": "955",
+          "unit_list_price": "955",
+          "unit_offer_price": "955",
+          "product": {
+            "code": "201505",
+            "name": "TestKitchen",
+            "description": "Installation Adminstration Kitchen",
+            "unit_list_price": "955",
+            "tpguid": "string",
+            "category": {
+              "description": "Installations",
+              "unit_list_price": "955",
+              "code": "184639",
+              "product_style": {
+                "description": "Installations",
+                "code": "184691",
+                "product_subgroup": {
+                  "description": "Installations",
+                  "code": "184692",
+                  "product_group": {
+                    "description": "Installations",
+                    "code": "184693"
+                  }
+                }
+              }
+            }
+          },
+          "promotions_applied": [
+            {
+              "code": "0x0000000001556F8T",
+              "description": "Summer2022",
+              "name": "Summer2022",
+              "effective_from": "2022-06-30",
+              "effective_to": "2022-07-21",
+              "type": [
+                {
+                  "code": "0x0000000001556F8T",
+                  "description": "Summer2022",
+                  "name": "Summer2022"
+                }
+              ]
+            }
+          ],
+          "sku": "201505",
+          "sku_description": "Installation Adminstration Kitchen"
+        }
+      ],
+      "discounts_applied": [
+        {
+          "description": "Summer2022",
+          "code": "0x0000000001556F8T",
+          "discount_value": "0.01",
+          "discount_date": "2022-07-04",
+          "name": "Summer2022",
+          "type": "e-type",
+          "colleague_employee_number": "654321",
+          "colleague_card_number": "123456"
+        }
+      ],
+      "promotions_applied": [
+        {
+          "code": "string",
+          "description": "string",
+          "name": "string",
+          "effective_from": "string",
+          "effective_to": "string",
+          "type": [
+            {
+              "code": "string",
+              "description": "string",
+              "name": "string"
+            }
+          ]
+        }
+      ],
+      "installations": [
+        {
+          "base_info": {
+            "event_date_time": "2022-07-21T13:12:00Z",
+            "processing_time": "2022-07-21T13:12:00Z",
+            "identifier": "OKTest",
+            "source_system_code": "Vision"
+          },
+          "job_id": "500200",
+          "Description": "test",
+          "quantity": "7",
+          "price": "800.02",
+          "planned_survey_date": "2022-07-08T09:20:57Z",
+          "actual_survey_date": "2022-07-08T09:20:57Z",
+          "planned_start_date": "2022-07-08T09:20:57Z",
+          "actual_start_date": "2022-07-08T09:20:57Z",
+          "planned_completion_date": "2022-07-010T09:20:57Z",
+          "actual_completion_date": "2022-07-10T09:20:57Z",
+          "dc_measurements_correct": "1",
+          "plan_fit": "0",
+          "Solid_surface_template_date": "2022-07-08T09:20:57Z",
+          "installation_catagory": {
+            "base_info": {
+              "event_date_time": "2022-07-21T13:12:00Z",
+              "processing_time": "2022-07-21T13:12:00Z",
+              "identifier": "OKTest",
+              "source_system_code": "Vision"
+            },
+            "code": "6512",
+            "Description": "OKTest"
+          },
+          "installer": "InstallerValue"
+        }
+      ]
+    },
+    "fulfilment_list": [
+      {
+        "base_info": {
+          "event_date_time": "2022-07-21T13:12:00Z",
+          "processing_time": "2022-07-21T13:12:00Z",
+          "identifier": "OKTest",
+          "source_system_code": "Vision"
+        },
+        "fulfilment_date": "2022-07-21T09:20:57Z",
+        "fulfilment_status": {
+          "code": "4758",
+          "description": "Test"
+        },
+        "fulfilment_method": {
+          "code": "4758",
+          "description": "Test"
+        },
+        "channel": {
+          "code": "4759",
+          "description": "Test",
+          "type": "Test",
+          "name": "Test"
+        },
+        "supplier": {
+          "base_info": {
+            "event_date_time": "2022-07-21T13:12:00Z",
+            "processing_time": "2022-07-21T13:12:00Z",
+            "identifier": "OKTest",
+            "source_system_code": "Vision"
+          },
+          "supplier_code": "00955",
+          "company_details": {
+            "company": {
+              "name": "Towelrads.com Ltd (D2C)",
+              "trading_as": "string",
+              "short_name": "string",
+              "vat_registration_number": "string",
+              "company_id": "84412569",
+              "legal_entity": {
+                "base_info": {
+                  "event_date_time": "2022-07-21T13:12:00Z",
+                  "processing_time": "2022-07-21T13:12:00Z",
+                  "identifier": "OKTest",
+                  "source_system_code": "Vision"
+                },
+                "id": "Test25"
+              }
+            }
+          }
+        },
+        "stock_items": [
+          {
+            "skus": [
+              {
+                "sku1": "219558",
+                "sku2": "201505",
+                "sku3": "string",
+                "sku4": "string"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "activity_list": [
+      {
+        "type": {
+          "activity_type": {
+            "Description": "In store Appointment",
+            "code": "7769"
+          }
+        },
+        "activity_date": "2022-07-04"
+      }
+    ],
+    "installations": [
+      {
+        "base_info": {
+          "event_date_time": "2022-07-04T06:10:57Z",
+          "processing_time": "2022-07-04T06:10:57Z",
+          "identifier": "OKTest",
+          "source_system_code": "Vision"
+        },
+        "job_id": "500200",
+        "Description": "test",
+        "quantity": "7",
+        "price": "800.02",
+        "planned_survey_date": "2022-07-08T06:10:57Z",
+        "actual_survey_date": "2022-07-08T06:10:57Z",
+        "planned_start_date": "2022-07-08T06:10:57Z",
+        "actual_start_date": "2022-07-08T06:10:57Z",
+        "planned_completion_date": "2022-07-08T06:10:57Z",
+        "actual_completion_date": "2022-07-08T06:10:57Z",
+        "dc_measurements_correct": "1",
+        "plan_fit": "0",
+        "Solid_surface_template_date": "2022-07-08T06:10:57Z",
+        "installation_catagory": {
+          "base_info": {
+            "event_date_time": "2022-07-04T06:10:57Z",
+            "processing_time": "2022-07-04T06:10:57Z",
+            "identifier": "OKTest",
+            "source_system_code": "Vision"
+          },
+          "code": "4587",
+          "Description": "Test"
+        },
+        "installer": "InstallerTestValue"
+      }
+    ],
+    "tenders": [
+      {
+        "cash_tender": {
+          "amount": "250",
+          "timestamp": "2022-07-04T06:10:57Z",
+          "tender_id": "0x0000000000258C13"
+        },
+        "cheque_tender": {
+          "amount": "250",
+          "timestamp": "2022-07-04T06:10:57Z",
+          "tender_id": "0x0000000000258C13"
+        },
+        "card_tender": {
+          "amount": "250",
+          "timestamp": "2022-07-04T06:10:57Z",
+          "tender_id": "0x0000000000258C13",
+          "hash": "hjhjhjhjnjb",
+          "masked_pan": "************1434",
+          "expiry_date": "2023-07-04",
+          "expiry_month": "12",
+          "type": {
+            "code": "Test125",
+            "description": "CREDITO DE VISA"
+          }
+        },
+        "finance_tender": {
+          "amount": "1428.06",
+          "timestamp": "2022-07-04T06:10:57Z",
+          "tender_id": "0x0000000000258C13",
+          "expiry_date": "2023-07-04T06:10:57Z",
+          "max_loan_amt": "142511",
+          "max_loan_expiry_date": "2023-05-04",
+          "min_loan_amt": "1000",
+          "agreement_number": "0182360000929107",
+          "finance_decision": "ACCEPT",
+          "provider_name": "Barclays",
+          "terms_months": "0",
+          "deferred_months": "05",
+          "monthly_interest_rate": "4",
+          "loan_amount": "1428.06",
+          "create_user": "Ole Ku",
+          "finance_status": {
+            "code": "12",
+            "description": "Payment_Required",
+            "name": "InstallationName",
+            "status_reason": "Automatically updated as the customer satisfied with installation."
+          }
+        },
+        "gift_vouchers": {
+          "amount": "string",
+          "timestamp": "string",
+          "tender_id": "string",
+          "voucher_number": "string"
+        },
+        "gift_card": {
+          "amount": "string",
+          "timestamp": "string",
+          "tender_id": "string",
+          "hash": "string",
+          "expiry_month": "string"
+        }
+      }
+    ],
+    "refund": [
+      {
+        "sku": "string",
+        "refund_reason": "string",
+        "refund_date": "string",
+        "source_line_item_id": "string",
+        "quantity": "string",
+        "Unit_refund_price": "string",
+        "total_refund_value": "string",
+        "refund_status": "string",
+        "store_id": "string",
+        "product_seen_by": {
+          "username": "string"
+        }
+      }
+    ],
+    "delivery_detail": {
+      "phone": "string",
+      "email_address": "darpol2514@gmail.com",
+      "postal_address": {
+        "address_line_1": "Bird Spring 280",
+        "address_line_2": "string",
+        "address_line_3": "string",
+        "town": "London",
+        "city": "string",
+        "county": "London",
+        "country": "UK",
+        "postcode": "SE21 8HA",
+        "street": "Bird Spring 280",
+        "building_number": "15",
+        "building_name": "string"
+      }
+    },
+    "customer_bill_detail": {
+      "phone": "1458325871",
+      "email_address": "darpol2514@gmail.com",
+      "postal_address": {
+        "address_line_1": "Bird Spring 280",
+        "address_line_2": "string",
+        "address_line_3": "string",
+        "town": "London",
+        "city": "string",
+        "county": "London",
+        "country": "UK",
+        "postcode": "SE21 8HA",
+        "street": "string",
+        "building_number": "15",
+        "building_name": "string"
+      },
+      "contact_details": {
+        "items": {
+          "postal_address": {
+            "address_line_1": "Bird Spring 280",
+            "address_line_2": "string",
+            "address_line_3": "string",
+            "town": "London",
+            "city": "string",
+            "county": "London",
+            "country": "UK",
+            "postcode": "SE21 8HA",
+            "street": "Bird Spring 280",
+            "building_number": "15",
+            "building_name": "string"
+          }
+        }
+      }
+    }
+  },
+  "quote": {
+    "base_info": {
+      "event_date_time": "2022-07-21T13:12:00Z",
+      "processing_time": "2022-07-21T13:12:00Z",
+      "identifier": "OKTest",
+      "source_system_code": "Vision"
+    },
+    "store": {
+      "code": "8804",
+      "name": "NT-Trading Test Store",
+      "Region": {
+        "name": "Eighteen",
+        "division": {
+          "name": "Test",
+          "code": "04"
+        }
+      }
+    },
+    "handled_by": {
+      "employee_number": "625625",
+      "username": "Ole Ku",
+      "Job_Title": {
+        "Description": "Design Consultant"
+      }
+    },
+    "design_consultant": {
+      "employee_number": "625625",
+      "username": "Ole Ku",
+      "Job_Title": {
+        "Description": "Design Consultant"
+      }
+    },
+    "category": {
+      "code": "string"
+    },
+    "channel": {
+      "code": "string"
+    },
+    "asked_on": "string",
+    "days_in_journey": "string",
+    "creation_week": 27,
+    "creation_period": 7,
+    "creation_year": 2022,
+    "created_on": "2022-07-21T13:12:00Z",
+    "order_date": "2022-07-21T13:12:00Z",
+    "delivery_date": "2022-07-10T10:20:57Z",
+    "quote_id": "0x00000000003893DL",
+    "quote_number": "951634",
+    "expiry": "2022-10-01T00:00:00Z",
+    "proposed_payment_mode": "testvalue",
+    "Ptc": "A",
+    "Ptc_date": "2022-12-03T00:00:00Z",
+    "Dry_fit_estimate": "testvalue",
+    "lead_id": "0x0000000000297863",
+    "honoured_until_date": "2022-08-11T00:00:00Z",
+    "number": 12321,
+    "number_of_installation": 7,
+    "quote_status": {
+      "code": "Ordered"
+    },
+    "items": {
+      "installation_value": "string",
+      "list_price": "0",
+      "total_discount": "0",
+      "total_price": "0",
+      "company_offer_price": "string",
+      "discount_description": "string",
+      "discount_date_time": "string",
+      "number_of_installation": "string",
+      "line_items": [
+        {
+          "line_item_id": "string",
+          "line_item_status": "string",
+          "line_item_create_time": "string",
+          "line_item_update_time": "string",
+          "quantity": "string",
+          "total_discount": "string",
+          "total_sales_value": "string",
+          "unit_list_price": "string",
+          "unit_offer_price": "string",
+          "product": {
+            "code": "string",
+            "name": "string",
+            "description": "string",
+            "unit_list_price": "string",
+            "tpguid": "string",
+            "category": {
+              "description": "string",
+              "unit_list_price": "string",
+              "code": "string",
+              "product_style": {
+                "description": "string",
+                "code": "string",
+                "product_subgroup": {
+                  "description": "string",
+                  "code": "string",
+                  "product_group": {
+                    "description": "string",
+                    "code": "string"
+                  }
+                }
+              }
+            }
+          },
+          "promotions_applied": [
+            {
+              "code": "string",
+              "description": "string",
+              "name": "string",
+              "effective_from": "string",
+              "effective_to": "string",
+              "type": [
+                {
+                  "code": "string",
+                  "description": "string",
+                  "name": "string"
+                }
+              ]
+            }
+          ],
+          "sku": "string",
+          "sku_description": "string"
+        }
+      ],
+      "discounts_applied": [
+        {
+          "description": "string",
+          "code": "string",
+          "discount_value": "string",
+          "discount_date": "string",
+          "name": "string",
+          "type": "string",
+          "colleague_employee_number": "string",
+          "colleague_card_number": "string"
+        }
+      ],
+      "promotions_applied": [
+        {
+          "code": "string",
+          "description": "string",
+          "name": "string",
+          "effective_from": "string",
+          "effective_to": "string",
+          "type": [
+            {
+              "code": "string",
+              "description": "string",
+              "name": "string"
+            }
+          ]
+        }
+      ],
+      "installations": [
+        {
+          "base_info": {
+            "event_date_time": "string",
+            "processing_time": "string",
+            "identifier": "string",
+            "source_system_code": "string"
+          },
+          "job_id": "string",
+          "Description": "string",
+          "quantity": "string",
+          "price": "string",
+          "planned_survey_date": "string",
+          "actual_survey_date": "string",
+          "planned_start_date": "string",
+          "actual_start_date": "string",
+          "planned_completion_date": "string",
+          "actual_completion_date": "string",
+          "dc_measurements_correct": "string",
+          "plan_fit": "string",
+          "Solid_surface_template_date": "string",
+          "installation_catagory": {
+            "base_info": {
+              "event_date_time": "string",
+              "processing_time": "string",
+              "identifier": "string",
+              "source_system_code": "string"
+            },
+            "code": "string",
+            "Description": "string"
+          },
+          "installer": "string"
+        }
+      ]
+    },
+    "activity_list": [
+      {
+        "type": {
+          "activity_type": {
+            "Description": "In store Appointment",
+            "code": "string"
+          }
+        },
+        "activity_date": "string"
+      }
+    ]
+  },
+  "lead": {
+    "base_info": {
+      "event_date_time": "2022-07-21T13:12:00Z",
+      "processing_time": "2022-07-21T13:12:00Z",
+      "identifier": "OKTest",
+      "source_system_code": "Vision"
+    },
+    "customer": {
+      "person": {
+        "id": "8654",
+        "contact_details": [
+          {
+            "email_address": {
+              "type": [
+                "home"
+              ],
+              "value": "darpol2514@gmail.com"
+            },
+            "phone_number": {
+              "type": [
+                "mobile"
+              ],
+              "value": "14595214"
+            },
+            "postal_address": {
+              "structured_address": {
+                "address_line_1": "Bird Spring 280",
+                "address_line_2": "string",
+                "address_line_3": "string",
+                "town": "London",
+                "city": "string",
+                "county": "London",
+                "country": "UK",
+                "postcode": "SE21 8HA",
+                "street": "Bird Spring 280",
+                "building_number": "15",
+                "building_name": "string"
+              },
+              "type": "string"
+            },
+            "website": {
+              "value": "string"
+            }
+          }
+        ],
+        "name": {
+          "title": "Mrs",
+          "first_name": "Daria",
+          "middle_names": [
+            {
+              "M1": "string",
+              "M2": "string"
+            }
+          ],
+          "last_name": "Poliahai",
+          "preferred_name": "string",
+          "suffix": "string"
+        }
+      },
+      "marketing_consent": "No"
+    },
+    "store": {
+      "code": "8804",
+      "name": "NT-Trading Test Store",
+      "Region": {
+        "name": "Eighteen",
+        "division": {
+          "name": "test",
+          "code": "04"
+        }
+      }
+    },
+    "lead_status": {
+      "code": "Prospect"
+    },
+    "type": {
+      "code": "Kitchen"
+    },
+    "creation_week": 27,
+    "creation_period": 7,
+    "creation_year": 2022,
+    "created_on": "2022-07-21T13:12:00Z",
+    "lead_id": "0x0000000000297863",
+    "user_notes": "string",
+    "taken_by": {
+      "employee_number": "625625",
+      "username": "Ole Ku",
+      "job_title": {
+        "Description": "Design Consultant"
+      }
+    },
+    "design_consultant": {
+      "employee_number": "625625",
+      "username": "Ole Ku",
+      "job_title": {
+        "Description": "Design Consultant"
+      }
+    },
+    "activity_list": [
+      {
+        "type": {
+          "activity_type": {
+            "Description": "In store Appointment",
+            "code": "string"
+          }
+        },
+        "activity_date": "string"
+      }
+    ],
+    "lead_source": {
+      "code": "string"
+    },
+    "lead_channel": {
+      "code": "string"
+    }
+  },
+  "Supplier_order": {
+    "base_info": {
+      "event_date_time": "string",
+      "processing_time": "string",
+      "identifier": "string",
+      "source_system_code": "string"
+    },
+    "Order_number": "#(commonData.transactionNumber)",
+    "Order_id": "#(commonData.customerOrderID)",
+    "customer_Order_id": "#(commonData.customerOrderID)",
+    "store_code": "#(commonData.storeCode)",
+    "last_amendment_date": "string",
+    "Order_status": {
+      "code": "string"
+    },
+    "supplier": {
+      "code": "string",
+      "Company_name": "string"
+    },
+    "items": {
+      "list_price": "string",
+      "total_discount": "string",
+      "total_price": "string",
+      "line_items": [
+        {
+          "quantity": "string",
+          "total_discount": "string",
+          "total_sales_value": "string",
+          "unit_list_price": "string",
+          "unit_offer_price": "string",
+          "line_item_status": "string",
+          "line_item_create_time": "string",
+          "line_item_update_time": "string",
+          "line_item_id": "string",
+          "sku": "string",
+          "sku_description": "string"
+        }
+      ]
+    }
+  }
+}

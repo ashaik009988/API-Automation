@@ -1,0 +1,88 @@
+{
+  "tp_supplier_code": "##string",
+  "wickes_supplier_code": "##string",
+  "GSID": "##string",
+  "ana_number": "##string",
+  "payment_terms_code": "##string",
+  "supplier_country_code": "##string",
+  "import_currency_code": "##string",
+  "lead_time": "##string",
+  "registration_stop_date": "##string",
+  "supplier_classification": "##string",
+  "edi_indicator": "##boolean",
+  "supplier_contact": "##string",
+  "supplier_division": "##string",
+  "aggregation_flag": "##string",
+  "parent_supplier_name": "##string",
+  "effective_start_dt": "##string",
+  "effective_end_dt": "##string",
+  "status": "##string",
+  "JDA_sourcing_route": [
+    "##string"
+  ],
+  "route_to_market": [
+    {
+      "rtm_id": "##string",
+      "rtm_name": "##string",
+      "jda_ship_via": "##number",
+      "edi_indicator": "##boolean"
+    }
+  ],
+  "created_time": "##string",
+  "approvalStatus": "##string",
+  "company": {
+    "id": "##string",
+    "name": "##string",
+    "short_name": "##string",
+    "vat_registration_number": "##string",
+    "vat_code": "##string",
+    "legal_entity": {
+      "contact_details": {
+        "postal_address": [
+          {
+            "unstructured_address": {
+              "address_line_1": "##string",
+              "address_line_2": "##string",
+              "address_line_3": "##string",
+              "address_line_4": "##string",
+              "postcode": "##string"
+            },
+            "type": "##string"
+          }
+        ],
+        "phone_number": [
+          {
+            "value": "##string",
+            "type": "##string"
+          }
+        ]
+      }
+    }
+  },
+  "installer_details": {
+    "installer_id": "##string",
+    "installer_date_created": "##string",
+    "installer_mobile": "##string",
+    "installer_email": "##string",
+    "installer_status": "##string",
+    "installer_country": "##string",
+    "installer_base_store_id": "##string",
+    "installer_rim_id": "##string",
+    "installer_category_kitchens": "#number",
+    "installer_category_bathrooms": "#number",
+    "installer_kitchen_fit_teams": "#number",
+    "installer_kitchen_fit_limit": "#number",
+    "installer_bathroom_fit_teams": "#number",
+    "installer_bathroom_fit_limit": "#number",
+    "installer_regional_installation_manager_name": "##string",
+    "installer_CIS_level": "##string",
+    "installer_CIS_level_description": "##string",
+    "compliance": [
+      {
+        "installer_compliance": "##string",
+        "installer_compliance_expiry_date": "##string",
+        "installer_compliance_registration_number": "##string"
+      }
+    ]
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "gpid": "##string",
+  "eventId": "##string",
+  "sku": "##string",
+  "description": "##string",
+  "approvalStatus": "##string",
+  "lifeCycleStatus": "##string",
+  "webCopy": "##string",
+  "featuresAndBenefits": [
+    "##string"
+  ],
+  "taxCode": "##string",
+  "mainUom": "##string",
+  "sellingUom": "##string",
+  "unitPriceUom": "##string",
+  "supplierCode": "##string",
+  "supplierPartNumber": "##string",
+  "keywords": [
+    "##string"
+  ],
+  "cosshhRequired": true,
+  "dopRequired": true,
+  "epdRequired": true,
+  "techRequired": true,
+  "gilRequired": true,
+  "weeeRequired": true,
+  "weee": "##string",
+  "palletHi": "##string",
+  "palletTi": "##string",
+  "sellOnly": true,
+  "onlineDate": "##string",
+  "offlineDate": "##string",
+  "gtin": "##string",
+  "damAssetId": "##string",
+  "explosivePrecursor": "##string",
+  "singleUom": "##string",
+  "origin": "##string",
+  "wickesDescription": "##string",
+  "jdaDescription": "##string",
+  "minOrderQuantity": "##ignore",
+  "equivalentDivisor": "##number",
+  "alternativeUomGroup": {
+    "unit": [
+      {
+        "name": "##string",
+        "quantity": "##string",
+        "units": "##string",
+        "measure": "##string",
+        "uom": "##string",
+        "uomNumeric": "##string",
+        "uomdescription": "##string"
+      }
+    ]
+  },
+  "channelData": [
+    {
+      "status": "##string",
+      "catalogId": "##string",
+      "productCategory": [
+        "##string"
+      ],
+      "description": "##string",
+      "webCopy": "##string",
+      "minOrderQuantity": "##string",
+      "fulfilmentType": "##string",
+      "searchBoostValue": "##string",
+      "swapCode": "##string",
+      "qualityRanking": "##string",
+      "onlineDate": "##string",
+      "offlineDate": "##string",
+      "approvalStatus": "##string",
+      "brandName": "##string",
+      "sellingUom": "##string",
+      "unitPriceUom": "##string",
+      "equivalentDivisor": "##ignore",
+      "skuCode": "##string",
+      "discontinued": "##boolean",
+      "sellOnly": "#boolean",
+      "baseProduct": {
+        "gpid": "##string",
+        "name": "##string",
+        "variantAttribute": [
+          {
+            "id": "##string",
+            "name": "##string",
+            "type": "##string",
+            "attributeUnit": [
+              {
+                "id": "##string",
+                "symbol": "##string",
+                "conversionFactor": "##number",
+                "conversionType": "##string"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "singleDimensions": {
+    "length": "##number",
+    "height": "##number",
+    "width": "##number",
+    "weight": "##number",
+    "volume": "##number",
+    "quantity": "##number"
+  },
+  "innerDimensions": {
+    "length": "##number",
+    "height": "##number",
+    "width": "##number",
+    "weight": "##number",
+    "volume": "##number",
+    "quantity": "##number"
+  },
+  "outerDimensions": {
+    "length": "##number",
+    "height": "##number",
+    "width": "##number",
+    "weight": "##number",
+    "volume": "##number",
+    "quantity": "##number"
+  },
+  "palletDimensions": {
+    "length": "##number",
+    "height": "##number",
+    "width": "##number",
+    "weight": "##number",
+    "volume": "##number",
+    "quantity": "##number"
+  },
+  "jdaCaseDimensions": {
+    "length": "##number" ,
+    "height": "##number",
+    "width": "##number",
+    "weight": "##number",
+    "volume": "##number",
+    "quantity": "##number"
+  },
+
+  "baseProduct": [
+    {
+      "gpid": "##string",
+      "name": "##string",
+      "variantAttribute": [
+        {
+          "id": "##string",
+          "name": "##string",
+          "type": "##string",
+          "attributeUnit": [
+            {
+              "id": "##string",
+              "symbol": "##string",
+              "conversionFactor": "##number",
+              "conversionType": "##string"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "explosiveOrPoison": true,
+  "components": [
+    {
+      "type": "##string",
+      "supplier": "##string",
+      "gpid": "##string",
+      "quantity": "##string",
+      "sku": [
+        {
+          "code": "##string",
+          "catalogFamily": "##string"
+        }
+      ]
+    }
+  ],
+  "supplierData": [
+    {
+      "partNumber": "##string",
+      "supplierId": "##string",
+      "gtin": [
+        {
+          "gtin": "##string",
+          "uom": "##string"
+        }
+      ]
+    }
+  ],
+  "attributeGroup": [
+    {
+      "groupId": "##string",
+      "name": "##string",
+      "attribute": [
+        {
+          "id": "##string",
+          "name": "##string",
+          "value": "##string",
+          "unit": {
+            "id": "##string",
+            "symbol": "##string",
+            "conversionFactor": "##number",
+            "conversionType": "##string"
+          }
+        }
+      ]
+    }
+  ],
+  "coreProperties": {
+    "property": [
+      {
+        "name": "##string",
+        "value": "##string",
+        "type": "##string"
+      }
+    ]
+  },
+  "productSkus": [
+    {
+      "catalogFamily": "##string",
+      "code": "##string"
+    }
+  ]
+}

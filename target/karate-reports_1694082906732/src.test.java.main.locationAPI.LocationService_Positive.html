@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"f04ad069-a11b-4b43-a528-6cfa418b1bbe",karate_version:"1.4.0",karate_meta:"intellij:1.7.4.325"});
+  }
+});
+</script>
+
+    <title>src.test.java.main.locationAPI.LocationService_Positive</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2023-09-07 03:58:57 PM</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:11]"><span>[1:11]</span> <span>2 Get a specific open store</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/main/locationAPI/LocationService_Positive.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Wickes location service positive flow</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:11]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:11]</span>
+                <span class="scenario-name">2 Get a specific open store</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>2988</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:11]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:11]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://location-api.preprod.wickes.systems&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">15:58:54.900 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:11]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def functions = Java.type(&#39;main.CustomDefs&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:11]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def featureName = karate.feature.fileName</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:11]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref bg-step">8</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>json commonData = functions.readCommonData(featureName)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">63</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/store/&#39; + commonData.locationNumber</span>
+      </div>
+    </div>
+    <div class="time-cell passed">12</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header x-api-key = &#39;XbugH2HdfG3q7U3qdwUkx3XYmDMHEse52mAWA7WU&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2773</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.15">15:58:55.655 request:
+1 &gt; GET https://location-api.preprod.wickes.systems/store/8909
+1 &gt; x-api-key: XbugH2HdfG3q7U3qdwUkx3XYmDMHEse52mAWA7WU
+1 &gt; Host: location-api.preprod.wickes.systems
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.19)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+15:58:57.814 response time in milliseconds: 2148
+1 &lt; 200
+1 &lt; Date: Thu, 07 Sep 2023 10:28:57 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Content-Length: 4742
+1 &lt; Connection: keep-alive
+1 &lt; x-amzn-RequestId: bf03d513-a218-4a1d-b10a-294b82f1962b
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; x-amz-apigw-id: K4bcXFCgDoEFmqw=
+1 &lt; X-Amzn-Trace-Id: Root=1-64f9a5e8-25139e0f654a17db21807bb3;Sampled=0;lineage=6efa96e7:0
+{&quot;locationNumber&quot;:&quot;8909&quot;,&quot;targetOpeningDate&quot;:&quot;2016-01-01&quot;,&quot;contacts&quot;:[{&quot;contactValue&quot;:&quot;@wickes.co.uk&quot;,&quot;contactMethod&quot;:&quot;EMAIL&quot;},{&quot;contactValue&quot;:&quot;01752 671739&quot;,&quot;contactMethod&quot;:&quot;FAX&quot;},{&quot;contactValue&quot;:&quot;01752 671738&quot;,&quot;contactMethod&quot;:&quot;PHONE&quot;}],&quot;webDisplayName&quot;:&quot;PLYMOUTH HUB&quot;,&quot;fulfilmentConfig&quot;:{&quot;deliveryPostCodeAllowList&quot;:[],&quot;deliveryRadii&quot;:[{&quot;radius&quot;:20,&quot;serviceType&quot;:&quot;LIGHT&quot;},{&quot;radius&quot;:13,&quot;serviceType&quot;:&quot;HEAVY&quot;}]},&quot;locationName&quot;:&quot;WICKES PLYMOUTH HUB&quot;,&quot;organisationName&quot;:&quot;WICKES&quot;,&quot;regionGroup&quot;:&quot;SOUTH&quot;,&quot;address&quot;:{&quot;country&quot;:&quot;GB&quot;,&quot;town&quot;:&quot;PLYMOUTH&quot;,&quot;latitude&quot;:&quot;50.393461&quot;,&quot;county&quot;:&quot;&quot;,&quot;postcode&quot;:&quot;PL6 8LX&quot;,&quot;line3&quot;:&quot;&quot;,&quot;line2&quot;:&quot;LONGBRIDGE ROAD&quot;,&quot;line1&quot;:&quot;14 MARSH MILLS PARK&quot;,&quot;longitude&quot;:&quot;-4.090875&quot;},&quot;locationSubType&quot;:&quot;SHOWROOM&quot;,&quot;specialOperatingHours&quot;:[{&quot;openingTime&quot;:&quot;06:30&quot;,&quot;eventDate&quot;:&quot;2023-07-21&quot;,&quot;specialOperatingHoursId&quot;:&quot;9376a2b2-52f1-439d-af9d-82e80345fcf1&quot;,&quot;closingTime&quot;:&quot;12:00&quot;,&quot;scheduleType&quot;:&quot;OPENED&quot;,&quot;message&quot;:&quot;Test Special&quot;,&quot;publishDate&quot;:&quot;2023-07-11&quot;}],&quot;auditEntries&quot;:[{&quot;userId&quot;:&quot;ostap.oleksiv@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-04-18T13:02:35.196Z&quot;},{&quot;userId&quot;:&quot;shalini.chakraborty.hexa@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-04-19T05:42:31.044Z&quot;},{&quot;userId&quot;:&quot;dmytro.romanenko@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-04-28T12:52:03.398Z&quot;},{&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-08T11:56:48.718Z&quot;},{&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-08T11:58:16.670Z&quot;},{&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-09T11:06:27.737Z&quot;},{&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-09T11:44:44.427Z&quot;},{&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-11T10:38:38.286Z&quot;},{&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-11T10:39:55.858Z&quot;},{&quot;userId&quot;:&quot;deepakprabhu.arumugam@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-16T11:35:00.690Z&quot;},{&quot;userId&quot;:&quot;deepakprabhu.arumugam@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-16T11:52:28.554Z&quot;},{&quot;userId&quot;:&quot;shalini.chakraborty.hexa@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: ranges&quot;,&quot;timestamp&quot;:&quot;2023-05-30T11:38:23.645Z&quot;},{&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: ranges&quot;,&quot;timestamp&quot;:&quot;2023-07-10T06:08:49.459Z&quot;},{&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: ranges&quot;,&quot;timestamp&quot;:&quot;2023-07-10T07:26:36.723Z&quot;},{&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-07-10T09:46:18.154Z&quot;},{&quot;userId&quot;:&quot;dmytro.romanenko@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: comment&quot;,&quot;timestamp&quot;:&quot;2023-07-30T13:23:41.495Z&quot;},{&quot;userId&quot;:&quot;dmytro.romanenko@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: comment&quot;,&quot;timestamp&quot;:&quot;2023-07-30T13:26:07.408Z&quot;}],&quot;ranges&quot;:[{&quot;rangeId&quot;:&quot;fab3269d-9cef-45dc-84f1-dce642b02451&quot;,&quot;rangeDescription&quot;:&quot;Whether you&#39;re looking for a complete bathroom overhaul or even just a new shower, bathtub or a set of bathroom taps; we have all of the inspiration and essentials you&#39;ll need. You can find bathroom suites to suit any home or bathroom furniture to provide you with storage solutions you never knew you needed. Need further inspiration? Why not book a free design appointment with our dedicated team of Design Consultants.&quot;,&quot;rangeName&quot;:&quot;Bathrooms&quot;}],&quot;features&quot;:[],&quot;operatingStatus&quot;:&quot;OPEN&quot;,&quot;regionalDirectorCode&quot;:&quot;437&quot;,&quot;locationType&quot;:&quot;STORE&quot;,&quot;comment&quot;:&quot;&quot;,&quot;regionCode&quot;:&quot;001&quot;,&quot;locationId&quot;:&quot;1a2f3dab-dbd8-4447-84dc-470dea87adb7&quot;,&quot;targetClosingDate&quot;:&quot;&quot;,&quot;operatingHours&quot;:[{&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;MON&quot;,&quot;openingTime&quot;:&quot;00:00&quot;},{&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;TUE&quot;,&quot;openingTime&quot;:&quot;00:00&quot;},{&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;WED&quot;,&quot;openingTime&quot;:&quot;00:00&quot;},{&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;THU&quot;,&quot;openingTime&quot;:&quot;00:00&quot;},{&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;FRI&quot;,&quot;openingTime&quot;:&quot;00:00&quot;},{&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;SAT&quot;,&quot;openingTime&quot;:&quot;00:00&quot;},{&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;SUN&quot;,&quot;openingTime&quot;:&quot;00:00&quot;}],&quot;branchGLN&quot;:5059519890966}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>json response = response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;Response:&#39;, response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.18">15:58:57.833 [print] Response: {
+  &quot;locationNumber&quot;: &quot;8909&quot;,
+  &quot;targetOpeningDate&quot;: &quot;2016-01-01&quot;,
+  &quot;contacts&quot;: [
+    {
+      &quot;contactValue&quot;: &quot;@wickes.co.uk&quot;,
+      &quot;contactMethod&quot;: &quot;EMAIL&quot;
+    },
+    {
+      &quot;contactValue&quot;: &quot;01752 671739&quot;,
+      &quot;contactMethod&quot;: &quot;FAX&quot;
+    },
+    {
+      &quot;contactValue&quot;: &quot;01752 671738&quot;,
+      &quot;contactMethod&quot;: &quot;PHONE&quot;
+    }
+  ],
+  &quot;webDisplayName&quot;: &quot;PLYMOUTH HUB&quot;,
+  &quot;fulfilmentConfig&quot;: {
+    &quot;deliveryPostCodeAllowList&quot;: [
+    ],
+    &quot;deliveryRadii&quot;: [
+      {
+        &quot;radius&quot;: 20,
+        &quot;serviceType&quot;: &quot;LIGHT&quot;
+      },
+      {
+        &quot;radius&quot;: 13,
+        &quot;serviceType&quot;: &quot;HEAVY&quot;
+      }
+    ]
+  },
+  &quot;locationName&quot;: &quot;WICKES PLYMOUTH HUB&quot;,
+  &quot;organisationName&quot;: &quot;WICKES&quot;,
+  &quot;regionGroup&quot;: &quot;SOUTH&quot;,
+  &quot;address&quot;: {
+    &quot;country&quot;: &quot;GB&quot;,
+    &quot;town&quot;: &quot;PLYMOUTH&quot;,
+    &quot;latitude&quot;: &quot;50.393461&quot;,
+    &quot;county&quot;: &quot;&quot;,
+    &quot;postcode&quot;: &quot;PL6 8LX&quot;,
+    &quot;line3&quot;: &quot;&quot;,
+    &quot;line2&quot;: &quot;LONGBRIDGE ROAD&quot;,
+    &quot;line1&quot;: &quot;14 MARSH MILLS PARK&quot;,
+    &quot;longitude&quot;: &quot;-4.090875&quot;
+  },
+  &quot;locationSubType&quot;: &quot;SHOWROOM&quot;,
+  &quot;specialOperatingHours&quot;: [
+    {
+      &quot;openingTime&quot;: &quot;06:30&quot;,
+      &quot;eventDate&quot;: &quot;2023-07-21&quot;,
+      &quot;specialOperatingHoursId&quot;: &quot;9376a2b2-52f1-439d-af9d-82e80345fcf1&quot;,
+      &quot;closingTime&quot;: &quot;12:00&quot;,
+      &quot;scheduleType&quot;: &quot;OPENED&quot;,
+      &quot;message&quot;: &quot;Test Special&quot;,
+      &quot;publishDate&quot;: &quot;2023-07-11&quot;
+    }
+  ],
+  &quot;auditEntries&quot;: [
+    {
+      &quot;userId&quot;: &quot;ostap.oleksiv@wickes.co.uk&quot;,
+      &quot;action&quot;: &quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,
+      &quot;timestamp&quot;: &quot;2023-04-18T13:02:35.196Z&quot;
+    },
+    {
+      &quot;userId&quot;: &quot;shalini.chakraborty.hexa@wickes.co.uk&quot;,
+      &quot;action&quot;: &quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,
+      &quot;timestamp&quot;: &quot;2023-04-19T05:42:31.044Z&quot;
+    },
+    {
+      &quot;userId&quot;: &quot;dmytro.romanenko@wickes.co.uk&quot;,
+      &quot;action&quot;: &quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,
+      &quot;timestamp&quot;: &quot;2023-04-28T12:52:03.398Z&quot;
+    },
+    {
+      &quot;userId&quot;: &quot;ritika.aora@wickes.co.uk&quot;,
+      &quot;action&quot;: &quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,
+      &quot;timestamp&quot;: &quot;2023-05-08T11:56:48.718Z&quot;
+    },
+    {
+      &quot;userId&quot;: &quot;ritika.aora@wickes.co.uk&quot;,
+      &quot;action&quot;: &quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,
+      &quot;timestamp&quot;: &quot;2023-05-08T11:58:16.670Z&quot;
+    },
+    {
+      &quot;userId&quot;: &quot;ritika.aora@wickes.co.uk&quot;,
+      &quot;action&quot;: &quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,
+      &quot;timestamp&quot;: &quot;2023-05-09T11:06:27.737Z&quot;
+    },
+    {
+      &quot;userId&quot;: &quot;ritika.aora@wickes.co.uk&quot;,
+      &quot;action&quot;: &quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,
+      &quot;timestamp&quot;: &quot;2023-05-09T11:44:44.427Z&quot;
+    },
+    {
+      &quot;userId&quot;: &quot;ritika.aora@wickes.co.uk&quot;,
+      &quot;action&quot;: &quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,
+      &quot;timestamp&quot;: &quot;2023-05-11T10:38:38.286Z&quot;
+    },
+    {
+      &quot;userId&quot;: &quot;ritika.aora@wickes.co.uk&quot;,
+      &quot;action&quot;: &quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,
+      &quot;timestamp&quot;: &quot;2023-05-11T10:39:55.858Z&quot;
+    },
+    {
+      &quot;userId&quot;: &quot;deepakprabhu.arumugam@wickes.co.uk&quot;,
+      &quot;action&quot;: &quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,
+      &quot;timestamp&quot;: &quot;2023-05-16T11:35:00.690Z&quot;
+    },
+    {
+      &quot;userId&quot;: &quot;deepakprabhu.arumugam@wickes.co.uk&quot;,
+      &quot;action&quot;: &quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,
+      &quot;timestamp&quot;: &quot;2023-05-16T11:52:28.554Z&quot;
+    },
+    {
+      &quot;userId&quot;: &quot;shalini.chakraborty.hexa@wickes.co.uk&quot;,
+      &quot;action&quot;: &quot;UPDATE Location. Changed fields: ranges&quot;,
+      &quot;timestamp&quot;: &quot;2023-05-30T11:38:23.645Z&quot;
+    },
+    {
+      &quot;userId&quot;: &quot;ritika.aora@wickes.co.uk&quot;,
+      &quot;action&quot;: &quot;UPDATE Location. Changed fields: ranges&quot;,
+      &quot;timestamp&quot;: &quot;2023-07-10T06:08:49.459Z&quot;
+    },
+    {
+      &quot;userId&quot;: &quot;ritika.aora@wickes.co.uk&quot;,
+      &quot;action&quot;: &quot;UPDATE Location. Changed fields: ranges&quot;,
+      &quot;timestamp&quot;: &quot;2023-07-10T07:26:36.723Z&quot;
+    },
+    {
+      &quot;userId&quot;: &quot;ritika.aora@wickes.co.uk&quot;,
+      &quot;action&quot;: &quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,
+      &quot;timestamp&quot;: &quot;2023-07-10T09:46:18.154Z&quot;
+    },
+    {
+      &quot;userId&quot;: &quot;dmytro.romanenko@wickes.co.uk&quot;,
+      &quot;action&quot;: &quot;UPDATE Location. Changed fields: comment&quot;,
+      &quot;timestamp&quot;: &quot;2023-07-30T13:23:41.495Z&quot;
+    },
+    {
+      &quot;userId&quot;: &quot;dmytro.romanenko@wickes.co.uk&quot;,
+      &quot;action&quot;: &quot;UPDATE Location. Changed fields: comment&quot;,
+      &quot;timestamp&quot;: &quot;2023-07-30T13:26:07.408Z&quot;
+    }
+  ],
+  &quot;ranges&quot;: [
+    {
+      &quot;rangeId&quot;: &quot;fab3269d-9cef-45dc-84f1-dce642b02451&quot;,
+      &quot;rangeDescription&quot;: &quot;Whether you&#39;re looking for a complete bathroom overhaul or even just a new shower, bathtub or a set of bathroom taps; we have all of the inspiration and essentials you&#39;ll need. You can find bathroom suites to suit any home or bathroom furniture to provide you with storage solutions you never knew you needed. Need further inspiration? Why not book a free design appointment with our dedicated team of Design Consultants.&quot;,
+      &quot;rangeName&quot;: &quot;Bathrooms&quot;
+    }
+  ],
+  &quot;features&quot;: [
+  ],
+  &quot;operatingStatus&quot;: &quot;OPEN&quot;,
+  &quot;regionalDirectorCode&quot;: &quot;437&quot;,
+  &quot;locationType&quot;: &quot;STORE&quot;,
+  &quot;comment&quot;: &quot;&quot;,
+  &quot;regionCode&quot;: &quot;001&quot;,
+  &quot;locationId&quot;: &quot;1a2f3dab-dbd8-4447-84dc-470dea87adb7&quot;,
+  &quot;targetClosingDate&quot;: &quot;&quot;,
+  &quot;operatingHours&quot;: [
+    {
+      &quot;closingTime&quot;: &quot;00:00&quot;,
+      &quot;scheduleType&quot;: &quot;CLOSED&quot;,
+      &quot;day&quot;: &quot;MON&quot;,
+      &quot;openingTime&quot;: &quot;00:00&quot;
+    },
+    {
+      &quot;closingTime&quot;: &quot;00:00&quot;,
+      &quot;scheduleType&quot;: &quot;CLOSED&quot;,
+      &quot;day&quot;: &quot;TUE&quot;,
+      &quot;openingTime&quot;: &quot;00:00&quot;
+    },
+    {
+      &quot;closingTime&quot;: &quot;00:00&quot;,
+      &quot;scheduleType&quot;: &quot;CLOSED&quot;,
+      &quot;day&quot;: &quot;WED&quot;,
+      &quot;openingTime&quot;: &quot;00:00&quot;
+    },
+    {
+      &quot;closingTime&quot;: &quot;00:00&quot;,
+      &quot;scheduleType&quot;: &quot;CLOSED&quot;,
+      &quot;day&quot;: &quot;THU&quot;,
+      &quot;openingTime&quot;: &quot;00:00&quot;
+    },
+    {
+      &quot;closingTime&quot;: &quot;00:00&quot;,
+      &quot;scheduleType&quot;: &quot;CLOSED&quot;,
+      &quot;day&quot;: &quot;FRI&quot;,
+      &quot;openingTime&quot;: &quot;00:00&quot;
+    },
+    {
+      &quot;closingTime&quot;: &quot;00:00&quot;,
+      &quot;scheduleType&quot;: &quot;CLOSED&quot;,
+      &quot;day&quot;: &quot;SAT&quot;,
+      &quot;openingTime&quot;: &quot;00:00&quot;
+    },
+    {
+      &quot;closingTime&quot;: &quot;00:00&quot;,
+      &quot;scheduleType&quot;: &quot;CLOSED&quot;,
+      &quot;day&quot;: &quot;SUN&quot;,
+      &quot;openingTime&quot;: &quot;00:00&quot;
+    }
+  ],
+  &quot;branchGLN&quot;: 5059519890966
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>json schema = read(&#39;schema/Scenario_2_GetaSpecificOpenStore.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">61</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref failed">20</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>match response contains deep schema</span>
+      </div>
+    </div>
+    <div class="time-cell failed">53</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.20">15:58:57.959 src/test/java/main/locationAPI/LocationService_Positive.feature:20
+Then match response contains deep schema
+match failed: CONTAINS_DEEP
+  $ | actual does not contain expected | all key-values did not match, expected has un-matched keys - [features, operatingHours, specialOperatingHours, fulfilmentConfig, auditEntries] (MAP:MAP)
+  {&quot;locationNumber&quot;:&quot;8909&quot;,&quot;targetOpeningDate&quot;:&quot;2016-01-01&quot;,&quot;contacts&quot;:[{&quot;contactValue&quot;:&quot;@wickes.co.uk&quot;,&quot;contactMethod&quot;:&quot;EMAIL&quot;},{&quot;contactValue&quot;:&quot;01752 671739&quot;,&quot;contactMethod&quot;:&quot;FAX&quot;},{&quot;contactValue&quot;:&quot;01752 671738&quot;,&quot;contactMethod&quot;:&quot;PHONE&quot;}],&quot;webDisplayName&quot;:&quot;PLYMOUTH HUB&quot;,&quot;fulfilmentConfig&quot;:{&quot;deliveryPostCodeAllowList&quot;:[],&quot;deliveryRadii&quot;:[{&quot;radius&quot;:20,&quot;serviceType&quot;:&quot;LIGHT&quot;},{&quot;radius&quot;:13,&quot;serviceType&quot;:&quot;HEAVY&quot;}]},&quot;locationName&quot;:&quot;WICKES PLYMOUTH HUB&quot;,&quot;organisationName&quot;:&quot;WICKES&quot;,&quot;regionGroup&quot;:&quot;SOUTH&quot;,&quot;address&quot;:{&quot;country&quot;:&quot;GB&quot;,&quot;town&quot;:&quot;PLYMOUTH&quot;,&quot;latitude&quot;:&quot;50.393461&quot;,&quot;county&quot;:&quot;&quot;,&quot;postcode&quot;:&quot;PL6 8LX&quot;,&quot;line3&quot;:&quot;&quot;,&quot;line2&quot;:&quot;LONGBRIDGE ROAD&quot;,&quot;line1&quot;:&quot;14 MARSH MILLS PARK&quot;,&quot;longitude&quot;:&quot;-4.090875&quot;},&quot;locationSubType&quot;:&quot;SHOWROOM&quot;,&quot;specialOperatingHours&quot;:[{&quot;openingTime&quot;:&quot;06:30&quot;,&quot;eventDate&quot;:&quot;2023-07-21&quot;,&quot;specialOperatingHoursId&quot;:&quot;9376a2b2-52f1-439d-af9d-82e80345fcf1&quot;,&quot;closingTime&quot;:&quot;12:00&quot;,&quot;scheduleType&quot;:&quot;OPENED&quot;,&quot;message&quot;:&quot;Test Special&quot;,&quot;publishDate&quot;:&quot;2023-07-11&quot;}],&quot;auditEntries&quot;:[{&quot;userId&quot;:&quot;ostap.oleksiv@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-04-18T13:02:35.196Z&quot;},{&quot;userId&quot;:&quot;shalini.chakraborty.hexa@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-04-19T05:42:31.044Z&quot;},{&quot;userId&quot;:&quot;dmytro.romanenko@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-04-28T12:52:03.398Z&quot;},{&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-08T11:56:48.718Z&quot;},{&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-08T11:58:16.670Z&quot;},{&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-09T11:06:27.737Z&quot;},{&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-09T11:44:44.427Z&quot;},{&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-11T10:38:38.286Z&quot;},{&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-11T10:39:55.858Z&quot;},{&quot;userId&quot;:&quot;deepakprabhu.arumugam@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-16T11:35:00.690Z&quot;},{&quot;userId&quot;:&quot;deepakprabhu.arumugam@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-16T11:52:28.554Z&quot;},{&quot;userId&quot;:&quot;shalini.chakraborty.hexa@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: ranges&quot;,&quot;timestamp&quot;:&quot;2023-05-30T11:38:23.645Z&quot;},{&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: ranges&quot;,&quot;timestamp&quot;:&quot;2023-07-10T06:08:49.459Z&quot;},{&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: ranges&quot;,&quot;timestamp&quot;:&quot;2023-07-10T07:26:36.723Z&quot;},{&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-07-10T09:46:18.154Z&quot;},{&quot;userId&quot;:&quot;dmytro.romanenko@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: comment&quot;,&quot;timestamp&quot;:&quot;2023-07-30T13:23:41.495Z&quot;},{&quot;userId&quot;:&quot;dmytro.romanenko@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: comment&quot;,&quot;timestamp&quot;:&quot;2023-07-30T13:26:07.408Z&quot;}],&quot;ranges&quot;:[{&quot;rangeId&quot;:&quot;fab3269d-9cef-45dc-84f1-dce642b02451&quot;,&quot;rangeDescription&quot;:&quot;Whether you&#39;re looking for a complete bathroom overhaul or even just a new shower, bathtub or a set of bathroom taps; we have all of the inspiration and essentials you&#39;ll need. You can find bathroom suites to suit any home or bathroom furniture to provide you with storage solutions you never knew you needed. Need further inspiration? Why not book a free design appointment with our dedicated team of Design Consultants.&quot;,&quot;rangeName&quot;:&quot;Bathrooms&quot;}],&quot;features&quot;:[],&quot;operatingStatus&quot;:&quot;OPEN&quot;,&quot;regionalDirectorCode&quot;:&quot;437&quot;,&quot;locationType&quot;:&quot;STORE&quot;,&quot;comment&quot;:&quot;&quot;,&quot;regionCode&quot;:&quot;001&quot;,&quot;locationId&quot;:&quot;1a2f3dab-dbd8-4447-84dc-470dea87adb7&quot;,&quot;targetClosingDate&quot;:&quot;&quot;,&quot;operatingHours&quot;:[{&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;MON&quot;,&quot;openingTime&quot;:&quot;00:00&quot;},{&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;TUE&quot;,&quot;openingTime&quot;:&quot;00:00&quot;},{&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;WED&quot;,&quot;openingTime&quot;:&quot;00:00&quot;},{&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;THU&quot;,&quot;openingTime&quot;:&quot;00:00&quot;},{&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;FRI&quot;,&quot;openingTime&quot;:&quot;00:00&quot;},{&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;SAT&quot;,&quot;openingTime&quot;:&quot;00:00&quot;},{&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;SUN&quot;,&quot;openingTime&quot;:&quot;00:00&quot;}],&quot;branchGLN&quot;:5059519890966}
+  {&quot;locationNumber&quot;:&quot;##string&quot;,&quot;targetOpeningDate&quot;:&quot;##string&quot;,&quot;contacts&quot;:[{&quot;contactMethod&quot;:&quot;##string&quot;,&quot;contactValue&quot;:&quot;##string&quot;}],&quot;webDisplayName&quot;:&quot;##string&quot;,&quot;fulfilmentConfig&quot;:{&quot;deliveryRadii&quot;:[{&quot;serviceType&quot;:&quot;##string&quot;,&quot;radius&quot;:&quot;##string&quot;}],&quot;deliveryPostCodeAllowList&quot;:[&quot;##string&quot;]},&quot;locationName&quot;:&quot;##string&quot;,&quot;organisationName&quot;:&quot;##string&quot;,&quot;regionGroup&quot;:&quot;##string&quot;,&quot;address&quot;:{&quot;country&quot;:&quot;##string&quot;,&quot;county&quot;:&quot;##string&quot;,&quot;latitude&quot;:&quot;##string&quot;,&quot;line1&quot;:&quot;##string&quot;,&quot;line2&quot;:&quot;##string&quot;,&quot;line3&quot;:&quot;##string&quot;,&quot;longitude&quot;:&quot;##string&quot;,&quot;postcode&quot;:&quot;##string&quot;,&quot;town&quot;:&quot;##string&quot;},&quot;locationSubType&quot;:&quot;##string&quot;,&quot;specialOperatingHours&quot;:[{&quot;scheduleType&quot;:&quot;##string&quot;,&quot;openingTime&quot;:&quot;#number&quot;,&quot;closingTime&quot;:&quot;#number&quot;,&quot;eventDate&quot;:&quot;#number&quot;,&quot;publishDate&quot;:&quot;#number&quot;,&quot;message&quot;:&quot;##string&quot;,&quot;specialOperatingHoursId&quot;:&quot;##string&quot;}],&quot;auditEntries&quot;:[{&quot;userId&quot;:&quot;##string&quot;,&quot;timestamp&quot;:{},&quot;action&quot;:&quot;##string&quot;}],&quot;ranges&quot;:[{&quot;rangeName&quot;:&quot;##string&quot;,&quot;rangeDescription&quot;:&quot;##string&quot;,&quot;rangeId&quot;:&quot;##string&quot;}],&quot;features&quot;:[{&quot;featureName&quot;:&quot;##string&quot;,&quot;featureDescription&quot;:&quot;##string&quot;,&quot;featureId&quot;:&quot;##string&quot;}],&quot;operatingStatus&quot;:&quot;##string&quot;,&quot;regionalDirectorCode&quot;:&quot;##string&quot;,&quot;locationType&quot;:&quot;##string&quot;,&quot;comment&quot;:&quot;##string&quot;,&quot;regionCode&quot;:&quot;##string&quot;,&quot;locationId&quot;:&quot;##string&quot;,&quot;targetClosingDate&quot;:&quot;##string&quot;,&quot;operatingHours&quot;:[{&quot;day&quot;:&quot;##string&quot;,&quot;scheduleType&quot;:&quot;##string&quot;,&quot;openingTime&quot;:&quot;#number&quot;,&quot;closingTime&quot;:&quot;#number&quot;}],&quot;branchGLN&quot;:&quot;#number&quot;,&quot;satNavPostcode&quot;:&quot;##string&quot;,&quot;showOn&quot;:&quot;##string&quot;,&quot;webDescription&quot;:&quot;##string&quot;}
+
+    $.auditEntries | actual does not contain expected | actual array does not contain expected item - {&quot;userId&quot;:&quot;##string&quot;,&quot;timestamp&quot;:{},&quot;action&quot;:&quot;##string&quot;} (LIST:LIST)
+    [{&quot;userId&quot;:&quot;ostap.oleksiv@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-04-18T13:02:35.196Z&quot;},{&quot;userId&quot;:&quot;shalini.chakraborty.hexa@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-04-19T05:42:31.044Z&quot;},{&quot;userId&quot;:&quot;dmytro.romanenko@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-04-28T12:52:03.398Z&quot;},{&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-08T11:56:48.718Z&quot;},{&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-08T11:58:16.670Z&quot;},{&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-09T11:06:27.737Z&quot;},{&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-09T11:44:44.427Z&quot;},{&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-11T10:38:38.286Z&quot;},{&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-11T10:39:55.858Z&quot;},{&quot;userId&quot;:&quot;deepakprabhu.arumugam@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-16T11:35:00.690Z&quot;},{&quot;userId&quot;:&quot;deepakprabhu.arumugam@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-16T11:52:28.554Z&quot;},{&quot;userId&quot;:&quot;shalini.chakraborty.hexa@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: ranges&quot;,&quot;timestamp&quot;:&quot;2023-05-30T11:38:23.645Z&quot;},{&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: ranges&quot;,&quot;timestamp&quot;:&quot;2023-07-10T06:08:49.459Z&quot;},{&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: ranges&quot;,&quot;timestamp&quot;:&quot;2023-07-10T07:26:36.723Z&quot;},{&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-07-10T09:46:18.154Z&quot;},{&quot;userId&quot;:&quot;dmytro.romanenko@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: comment&quot;,&quot;timestamp&quot;:&quot;2023-07-30T13:23:41.495Z&quot;},{&quot;userId&quot;:&quot;dmytro.romanenko@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: comment&quot;,&quot;timestamp&quot;:&quot;2023-07-30T13:26:07.408Z&quot;}]
+    [{&quot;userId&quot;:&quot;##string&quot;,&quot;timestamp&quot;:{},&quot;action&quot;:&quot;##string&quot;}]
+
+      $.auditEntries[16] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [timestamp] (MAP:MAP)
+      {&quot;userId&quot;:&quot;dmytro.romanenko@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: comment&quot;,&quot;timestamp&quot;:&quot;2023-07-30T13:26:07.408Z&quot;}
+      {&quot;userId&quot;:&quot;##string&quot;,&quot;action&quot;:&quot;##string&quot;,&quot;timestamp&quot;:{}}
+
+        $.auditEntries[16].timestamp | data types don&#39;t match (STRING:MAP)
+        &#39;2023-07-30T13:26:07.408Z&#39;
+        {}
+
+          $.auditEntries[15] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [timestamp] (MAP:MAP)
+          {&quot;userId&quot;:&quot;dmytro.romanenko@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: comment&quot;,&quot;timestamp&quot;:&quot;2023-07-30T13:23:41.495Z&quot;}
+          {&quot;userId&quot;:&quot;##string&quot;,&quot;action&quot;:&quot;##string&quot;,&quot;timestamp&quot;:{}}
+
+            $.auditEntries[15].timestamp | data types don&#39;t match (STRING:MAP)
+            &#39;2023-07-30T13:23:41.495Z&#39;
+            {}
+
+              $.auditEntries[14] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [timestamp] (MAP:MAP)
+              {&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-07-10T09:46:18.154Z&quot;}
+              {&quot;userId&quot;:&quot;##string&quot;,&quot;action&quot;:&quot;##string&quot;,&quot;timestamp&quot;:{}}
+
+                $.auditEntries[14].timestamp | data types don&#39;t match (STRING:MAP)
+                &#39;2023-07-10T09:46:18.154Z&#39;
+                {}
+
+                  $.auditEntries[13] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [timestamp] (MAP:MAP)
+                  {&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: ranges&quot;,&quot;timestamp&quot;:&quot;2023-07-10T07:26:36.723Z&quot;}
+                  {&quot;userId&quot;:&quot;##string&quot;,&quot;action&quot;:&quot;##string&quot;,&quot;timestamp&quot;:{}}
+
+                    $.auditEntries[13].timestamp | data types don&#39;t match (STRING:MAP)
+                    &#39;2023-07-10T07:26:36.723Z&#39;
+                    {}
+
+                      $.auditEntries[12] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [timestamp] (MAP:MAP)
+                      {&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: ranges&quot;,&quot;timestamp&quot;:&quot;2023-07-10T06:08:49.459Z&quot;}
+                      {&quot;userId&quot;:&quot;##string&quot;,&quot;action&quot;:&quot;##string&quot;,&quot;timestamp&quot;:{}}
+
+                        $.auditEntries[12].timestamp | data types don&#39;t match (STRING:MAP)
+                        &#39;2023-07-10T06:08:49.459Z&#39;
+                        {}
+
+                          $.auditEntries[11] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [timestamp] (MAP:MAP)
+                          {&quot;userId&quot;:&quot;shalini.chakraborty.hexa@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: ranges&quot;,&quot;timestamp&quot;:&quot;2023-05-30T11:38:23.645Z&quot;}
+                          {&quot;userId&quot;:&quot;##string&quot;,&quot;action&quot;:&quot;##string&quot;,&quot;timestamp&quot;:{}}
+
+                            $.auditEntries[11].timestamp | data types don&#39;t match (STRING:MAP)
+                            &#39;2023-05-30T11:38:23.645Z&#39;
+                            {}
+
+                              $.auditEntries[10] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [timestamp] (MAP:MAP)
+                              {&quot;userId&quot;:&quot;deepakprabhu.arumugam@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-16T11:52:28.554Z&quot;}
+                              {&quot;userId&quot;:&quot;##string&quot;,&quot;action&quot;:&quot;##string&quot;,&quot;timestamp&quot;:{}}
+
+                                $.auditEntries[10].timestamp | data types don&#39;t match (STRING:MAP)
+                                &#39;2023-05-16T11:52:28.554Z&#39;
+                                {}
+
+                                  $.auditEntries[9] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [timestamp] (MAP:MAP)
+                                  {&quot;userId&quot;:&quot;deepakprabhu.arumugam@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-16T11:35:00.690Z&quot;}
+                                  {&quot;userId&quot;:&quot;##string&quot;,&quot;action&quot;:&quot;##string&quot;,&quot;timestamp&quot;:{}}
+
+                                    $.auditEntries[9].timestamp | data types don&#39;t match (STRING:MAP)
+                                    &#39;2023-05-16T11:35:00.690Z&#39;
+                                    {}
+
+                                      $.auditEntries[8] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [timestamp] (MAP:MAP)
+                                      {&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-11T10:39:55.858Z&quot;}
+                                      {&quot;userId&quot;:&quot;##string&quot;,&quot;action&quot;:&quot;##string&quot;,&quot;timestamp&quot;:{}}
+
+                                        $.auditEntries[8].timestamp | data types don&#39;t match (STRING:MAP)
+                                        &#39;2023-05-11T10:39:55.858Z&#39;
+                                        {}
+
+                                          $.auditEntries[7] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [timestamp] (MAP:MAP)
+                                          {&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-11T10:38:38.286Z&quot;}
+                                          {&quot;userId&quot;:&quot;##string&quot;,&quot;action&quot;:&quot;##string&quot;,&quot;timestamp&quot;:{}}
+
+                                            $.auditEntries[7].timestamp | data types don&#39;t match (STRING:MAP)
+                                            &#39;2023-05-11T10:38:38.286Z&#39;
+                                            {}
+
+                                              $.auditEntries[6] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [timestamp] (MAP:MAP)
+                                              {&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-09T11:44:44.427Z&quot;}
+                                              {&quot;userId&quot;:&quot;##string&quot;,&quot;action&quot;:&quot;##string&quot;,&quot;timestamp&quot;:{}}
+
+                                                $.auditEntries[6].timestamp | data types don&#39;t match (STRING:MAP)
+                                                &#39;2023-05-09T11:44:44.427Z&#39;
+                                                {}
+
+                                                  $.auditEntries[5] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [timestamp] (MAP:MAP)
+                                                  {&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-09T11:06:27.737Z&quot;}
+                                                  {&quot;userId&quot;:&quot;##string&quot;,&quot;action&quot;:&quot;##string&quot;,&quot;timestamp&quot;:{}}
+
+                                                    $.auditEntries[5].timestamp | data types don&#39;t match (STRING:MAP)
+                                                    &#39;2023-05-09T11:06:27.737Z&#39;
+                                                    {}
+
+                                                      $.auditEntries[4] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [timestamp] (MAP:MAP)
+                                                      {&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-08T11:58:16.670Z&quot;}
+                                                      {&quot;userId&quot;:&quot;##string&quot;,&quot;action&quot;:&quot;##string&quot;,&quot;timestamp&quot;:{}}
+
+                                                        $.auditEntries[4].timestamp | data types don&#39;t match (STRING:MAP)
+                                                        &#39;2023-05-08T11:58:16.670Z&#39;
+                                                        {}
+
+                                                          $.auditEntries[3] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [timestamp] (MAP:MAP)
+                                                          {&quot;userId&quot;:&quot;ritika.aora@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-05-08T11:56:48.718Z&quot;}
+                                                          {&quot;userId&quot;:&quot;##string&quot;,&quot;action&quot;:&quot;##string&quot;,&quot;timestamp&quot;:{}}
+
+                                                            $.auditEntries[3].timestamp | data types don&#39;t match (STRING:MAP)
+                                                            &#39;2023-05-08T11:56:48.718Z&#39;
+                                                            {}
+
+                                                              $.auditEntries[2] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [timestamp] (MAP:MAP)
+                                                              {&quot;userId&quot;:&quot;dmytro.romanenko@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-04-28T12:52:03.398Z&quot;}
+                                                              {&quot;userId&quot;:&quot;##string&quot;,&quot;action&quot;:&quot;##string&quot;,&quot;timestamp&quot;:{}}
+
+                                                                $.auditEntries[2].timestamp | data types don&#39;t match (STRING:MAP)
+                                                                &#39;2023-04-28T12:52:03.398Z&#39;
+                                                                {}
+
+                                                                  $.auditEntries[1] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [timestamp] (MAP:MAP)
+                                                                  {&quot;userId&quot;:&quot;shalini.chakraborty.hexa@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-04-19T05:42:31.044Z&quot;}
+                                                                  {&quot;userId&quot;:&quot;##string&quot;,&quot;action&quot;:&quot;##string&quot;,&quot;timestamp&quot;:{}}
+
+                                                                    $.auditEntries[1].timestamp | data types don&#39;t match (STRING:MAP)
+                                                                    &#39;2023-04-19T05:42:31.044Z&#39;
+                                                                    {}
+
+                                                                      $.auditEntries[0] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [timestamp] (MAP:MAP)
+                                                                      {&quot;userId&quot;:&quot;ostap.oleksiv@wickes.co.uk&quot;,&quot;action&quot;:&quot;UPDATE Location. Changed fields: specialOperatingHours&quot;,&quot;timestamp&quot;:&quot;2023-04-18T13:02:35.196Z&quot;}
+                                                                      {&quot;userId&quot;:&quot;##string&quot;,&quot;action&quot;:&quot;##string&quot;,&quot;timestamp&quot;:{}}
+
+                                                                        $.auditEntries[0].timestamp | data types don&#39;t match (STRING:MAP)
+                                                                        &#39;2023-04-18T13:02:35.196Z&#39;
+                                                                        {}
+
+                                                                          $.fulfilmentConfig | actual does not contain expected | all key-values did not match, expected has un-matched keys - [deliveryRadii, deliveryPostCodeAllowList] (MAP:MAP)
+                                                                          {&quot;deliveryPostCodeAllowList&quot;:[],&quot;deliveryRadii&quot;:[{&quot;radius&quot;:20,&quot;serviceType&quot;:&quot;LIGHT&quot;},{&quot;radius&quot;:13,&quot;serviceType&quot;:&quot;HEAVY&quot;}]}
+                                                                          {&quot;deliveryPostCodeAllowList&quot;:[&quot;##string&quot;],&quot;deliveryRadii&quot;:[{&quot;serviceType&quot;:&quot;##string&quot;,&quot;radius&quot;:&quot;##string&quot;}]}
+
+                                                                            $.fulfilmentConfig.deliveryPostCodeAllowList | actual does not contain expected | actual array length is less than expected - 0:1 (LIST:LIST)
+                                                                            []
+                                                                            [&quot;##string&quot;]
+
+                                                                            $.fulfilmentConfig.deliveryRadii | actual does not contain expected | actual array does not contain expected item - {&quot;serviceType&quot;:&quot;##string&quot;,&quot;radius&quot;:&quot;##string&quot;} (LIST:LIST)
+                                                                            [{&quot;radius&quot;:20,&quot;serviceType&quot;:&quot;LIGHT&quot;},{&quot;radius&quot;:13,&quot;serviceType&quot;:&quot;HEAVY&quot;}]
+                                                                            [{&quot;serviceType&quot;:&quot;##string&quot;,&quot;radius&quot;:&quot;##string&quot;}]
+
+                                                                              $.fulfilmentConfig.deliveryRadii[1] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [radius] (MAP:MAP)
+                                                                              {&quot;radius&quot;:13,&quot;serviceType&quot;:&quot;HEAVY&quot;}
+                                                                              {&quot;radius&quot;:&quot;##string&quot;,&quot;serviceType&quot;:&quot;##string&quot;}
+
+                                                                                $.fulfilmentConfig.deliveryRadii[1].radius | not a string (NUMBER:STRING)
+                                                                                13
+                                                                                &#39;##string&#39;
+
+                                                                                  $.fulfilmentConfig.deliveryRadii[0] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [radius] (MAP:MAP)
+                                                                                  {&quot;radius&quot;:20,&quot;serviceType&quot;:&quot;LIGHT&quot;}
+                                                                                  {&quot;radius&quot;:&quot;##string&quot;,&quot;serviceType&quot;:&quot;##string&quot;}
+
+                                                                                    $.fulfilmentConfig.deliveryRadii[0].radius | not a string (NUMBER:STRING)
+                                                                                    20
+                                                                                    &#39;##string&#39;
+
+                                                                                      $.specialOperatingHours | actual does not contain expected | actual array does not contain expected item - {&quot;scheduleType&quot;:&quot;##string&quot;,&quot;openingTime&quot;:&quot;#number&quot;,&quot;closingTime&quot;:&quot;#number&quot;,&quot;eventDate&quot;:&quot;#number&quot;,&quot;publishDate&quot;:&quot;#number&quot;,&quot;message&quot;:&quot;##string&quot;,&quot;specialOperatingHoursId&quot;:&quot;##string&quot;} (LIST:LIST)
+                                                                                      [{&quot;openingTime&quot;:&quot;06:30&quot;,&quot;eventDate&quot;:&quot;2023-07-21&quot;,&quot;specialOperatingHoursId&quot;:&quot;9376a2b2-52f1-439d-af9d-82e80345fcf1&quot;,&quot;closingTime&quot;:&quot;12:00&quot;,&quot;scheduleType&quot;:&quot;OPENED&quot;,&quot;message&quot;:&quot;Test Special&quot;,&quot;publishDate&quot;:&quot;2023-07-11&quot;}]
+                                                                                      [{&quot;scheduleType&quot;:&quot;##string&quot;,&quot;openingTime&quot;:&quot;#number&quot;,&quot;closingTime&quot;:&quot;#number&quot;,&quot;eventDate&quot;:&quot;#number&quot;,&quot;publishDate&quot;:&quot;#number&quot;,&quot;message&quot;:&quot;##string&quot;,&quot;specialOperatingHoursId&quot;:&quot;##string&quot;}]
+
+                                                                                        $.specialOperatingHours[0] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [openingTime, closingTime, eventDate, publishDate] (MAP:MAP)
+                                                                                        {&quot;openingTime&quot;:&quot;06:30&quot;,&quot;eventDate&quot;:&quot;2023-07-21&quot;,&quot;specialOperatingHoursId&quot;:&quot;9376a2b2-52f1-439d-af9d-82e80345fcf1&quot;,&quot;closingTime&quot;:&quot;12:00&quot;,&quot;scheduleType&quot;:&quot;OPENED&quot;,&quot;message&quot;:&quot;Test Special&quot;,&quot;publishDate&quot;:&quot;2023-07-11&quot;}
+                                                                                        {&quot;openingTime&quot;:&quot;#number&quot;,&quot;eventDate&quot;:&quot;#number&quot;,&quot;specialOperatingHoursId&quot;:&quot;##string&quot;,&quot;closingTime&quot;:&quot;#number&quot;,&quot;scheduleType&quot;:&quot;##string&quot;,&quot;message&quot;:&quot;##string&quot;,&quot;publishDate&quot;:&quot;#number&quot;}
+
+                                                                                          $.specialOperatingHours[0].publishDate | not a number (STRING:STRING)
+                                                                                          &#39;2023-07-11&#39;
+                                                                                          &#39;#number&#39;
+
+                                                                                          $.specialOperatingHours[0].eventDate | not a number (STRING:STRING)
+                                                                                          &#39;2023-07-21&#39;
+                                                                                          &#39;#number&#39;
+
+                                                                                          $.specialOperatingHours[0].closingTime | not a number (STRING:STRING)
+                                                                                          &#39;12:00&#39;
+                                                                                          &#39;#number&#39;
+
+                                                                                          $.specialOperatingHours[0].openingTime | not a number (STRING:STRING)
+                                                                                          &#39;06:30&#39;
+                                                                                          &#39;#number&#39;
+
+                                                                                            $.operatingHours | actual does not contain expected | actual array does not contain expected item - {&quot;day&quot;:&quot;##string&quot;,&quot;scheduleType&quot;:&quot;##string&quot;,&quot;openingTime&quot;:&quot;#number&quot;,&quot;closingTime&quot;:&quot;#number&quot;} (LIST:LIST)
+                                                                                            [{&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;MON&quot;,&quot;openingTime&quot;:&quot;00:00&quot;},{&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;TUE&quot;,&quot;openingTime&quot;:&quot;00:00&quot;},{&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;WED&quot;,&quot;openingTime&quot;:&quot;00:00&quot;},{&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;THU&quot;,&quot;openingTime&quot;:&quot;00:00&quot;},{&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;FRI&quot;,&quot;openingTime&quot;:&quot;00:00&quot;},{&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;SAT&quot;,&quot;openingTime&quot;:&quot;00:00&quot;},{&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;SUN&quot;,&quot;openingTime&quot;:&quot;00:00&quot;}]
+                                                                                            [{&quot;day&quot;:&quot;##string&quot;,&quot;scheduleType&quot;:&quot;##string&quot;,&quot;openingTime&quot;:&quot;#number&quot;,&quot;closingTime&quot;:&quot;#number&quot;}]
+
+                                                                                              $.operatingHours[6] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [openingTime, closingTime] (MAP:MAP)
+                                                                                              {&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;SUN&quot;,&quot;openingTime&quot;:&quot;00:00&quot;}
+                                                                                              {&quot;closingTime&quot;:&quot;#number&quot;,&quot;scheduleType&quot;:&quot;##string&quot;,&quot;day&quot;:&quot;##string&quot;,&quot;openingTime&quot;:&quot;#number&quot;}
+
+                                                                                                $.operatingHours[6].closingTime | not a number (STRING:STRING)
+                                                                                                &#39;00:00&#39;
+                                                                                                &#39;#number&#39;
+
+                                                                                                $.operatingHours[6].openingTime | not a number (STRING:STRING)
+                                                                                                &#39;00:00&#39;
+                                                                                                &#39;#number&#39;
+
+                                                                                                  $.operatingHours[5] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [openingTime, closingTime] (MAP:MAP)
+                                                                                                  {&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;SAT&quot;,&quot;openingTime&quot;:&quot;00:00&quot;}
+                                                                                                  {&quot;closingTime&quot;:&quot;#number&quot;,&quot;scheduleType&quot;:&quot;##string&quot;,&quot;day&quot;:&quot;##string&quot;,&quot;openingTime&quot;:&quot;#number&quot;}
+
+                                                                                                    $.operatingHours[5].closingTime | not a number (STRING:STRING)
+                                                                                                    &#39;00:00&#39;
+                                                                                                    &#39;#number&#39;
+
+                                                                                                    $.operatingHours[5].openingTime | not a number (STRING:STRING)
+                                                                                                    &#39;00:00&#39;
+                                                                                                    &#39;#number&#39;
+
+                                                                                                      $.operatingHours[4] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [openingTime, closingTime] (MAP:MAP)
+                                                                                                      {&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;FRI&quot;,&quot;openingTime&quot;:&quot;00:00&quot;}
+                                                                                                      {&quot;closingTime&quot;:&quot;#number&quot;,&quot;scheduleType&quot;:&quot;##string&quot;,&quot;day&quot;:&quot;##string&quot;,&quot;openingTime&quot;:&quot;#number&quot;}
+
+                                                                                                        $.operatingHours[4].closingTime | not a number (STRING:STRING)
+                                                                                                        &#39;00:00&#39;
+                                                                                                        &#39;#number&#39;
+
+                                                                                                        $.operatingHours[4].openingTime | not a number (STRING:STRING)
+                                                                                                        &#39;00:00&#39;
+                                                                                                        &#39;#number&#39;
+
+                                                                                                          $.operatingHours[3] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [openingTime, closingTime] (MAP:MAP)
+                                                                                                          {&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;THU&quot;,&quot;openingTime&quot;:&quot;00:00&quot;}
+                                                                                                          {&quot;closingTime&quot;:&quot;#number&quot;,&quot;scheduleType&quot;:&quot;##string&quot;,&quot;day&quot;:&quot;##string&quot;,&quot;openingTime&quot;:&quot;#number&quot;}
+
+                                                                                                            $.operatingHours[3].closingTime | not a number (STRING:STRING)
+                                                                                                            &#39;00:00&#39;
+                                                                                                            &#39;#number&#39;
+
+                                                                                                            $.operatingHours[3].openingTime | not a number (STRING:STRING)
+                                                                                                            &#39;00:00&#39;
+                                                                                                            &#39;#number&#39;
+
+                                                                                                              $.operatingHours[2] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [openingTime, closingTime] (MAP:MAP)
+                                                                                                              {&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;WED&quot;,&quot;openingTime&quot;:&quot;00:00&quot;}
+                                                                                                              {&quot;closingTime&quot;:&quot;#number&quot;,&quot;scheduleType&quot;:&quot;##string&quot;,&quot;day&quot;:&quot;##string&quot;,&quot;openingTime&quot;:&quot;#number&quot;}
+
+                                                                                                                $.operatingHours[2].closingTime | not a number (STRING:STRING)
+                                                                                                                &#39;00:00&#39;
+                                                                                                                &#39;#number&#39;
+
+                                                                                                                $.operatingHours[2].openingTime | not a number (STRING:STRING)
+                                                                                                                &#39;00:00&#39;
+                                                                                                                &#39;#number&#39;
+
+                                                                                                                  $.operatingHours[1] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [openingTime, closingTime] (MAP:MAP)
+                                                                                                                  {&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;TUE&quot;,&quot;openingTime&quot;:&quot;00:00&quot;}
+                                                                                                                  {&quot;closingTime&quot;:&quot;#number&quot;,&quot;scheduleType&quot;:&quot;##string&quot;,&quot;day&quot;:&quot;##string&quot;,&quot;openingTime&quot;:&quot;#number&quot;}
+
+                                                                                                                    $.operatingHours[1].closingTime | not a number (STRING:STRING)
+                                                                                                                    &#39;00:00&#39;
+                                                                                                                    &#39;#number&#39;
+
+                                                                                                                    $.operatingHours[1].openingTime | not a number (STRING:STRING)
+                                                                                                                    &#39;00:00&#39;
+                                                                                                                    &#39;#number&#39;
+
+                                                                                                                      $.operatingHours[0] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [openingTime, closingTime] (MAP:MAP)
+                                                                                                                      {&quot;closingTime&quot;:&quot;00:00&quot;,&quot;scheduleType&quot;:&quot;CLOSED&quot;,&quot;day&quot;:&quot;MON&quot;,&quot;openingTime&quot;:&quot;00:00&quot;}
+                                                                                                                      {&quot;closingTime&quot;:&quot;#number&quot;,&quot;scheduleType&quot;:&quot;##string&quot;,&quot;day&quot;:&quot;##string&quot;,&quot;openingTime&quot;:&quot;#number&quot;}
+
+                                                                                                                        $.operatingHours[0].closingTime | not a number (STRING:STRING)
+                                                                                                                        &#39;00:00&#39;
+                                                                                                                        &#39;#number&#39;
+
+                                                                                                                        $.operatingHours[0].openingTime | not a number (STRING:STRING)
+                                                                                                                        &#39;00:00&#39;
+                                                                                                                        &#39;#number&#39;
+
+                                                                                                                          $.features | actual does not contain expected | actual array length is less than expected - 0:1 (LIST:LIST)
+                                                                                                                          []
+                                                                                                                          [{&quot;featureName&quot;:&quot;##string&quot;,&quot;featureDescription&quot;:&quot;##string&quot;,&quot;featureId&quot;:&quot;##string&quot;}]
+
+
+src/test/java/main/locationAPI/LocationService_Positive.feature:20
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

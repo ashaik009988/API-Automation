@@ -1,0 +1,150 @@
+{
+  "installationOrders": [
+    {
+      "jobId": "##string",
+      "number": "##string",
+      "orderId": "##string",
+      "salesOrderDate": "##string",
+      "quoteId": "##string",
+      "installationDescription": "##string",
+      "installationOrderDate": "##string",
+      "installationValue": "##string",
+      "installationStatusDescription": "##string",
+      "installationDeliveryDate": "##string",
+      "installationCancelledDate": "##string",
+      "installationCancelledReason": "##string",
+      "orderInstallationNotes": "##string",
+      "quoteInstallationNotes": "##string",
+      "installationCategory": "##string",
+      "preferredStartDate": "##string",
+      "actualCompletionDate": "##string",
+      "plannedSurveyDate": "##string",
+      "revisedCompletionDate": "##string",
+      "actualStartDate": "##string",
+      "actualSurveyDate": "##string",
+      "adr": "#ignore",
+      "amountOutstanding": "#present",
+      "saleAmount": "#number",
+      "storeId": "##string",
+      "installationType": "##string",
+      "deliveryChargeExempt": "#number",
+      "deliveryInformed": "#ignore",
+      "dryFitAdminChangeOrder": "#number",
+      "plannedStartDate": "##string",
+      "plannedCompletionDate": "##string",
+      "emailedDate": "##string",
+      "paidDate": "##string",
+      "installationLabourCost": "##string",
+      "requestedDate": "##string",
+      "selectedDate": "##string",
+      "confirmedDate": "##string",
+      "dateCreated": "##string",
+      "payRequestedDate": "##string",
+      "quoteOfferPrice": "#number",
+      "orderOfferPrice": "#number",
+      "HDIOrderCode": "##string",
+      "miscDateHoldEnds": "##string",
+      "miscDateOnHold": "##string",
+      "miscDateSuspendEnds": "##string",
+      "lastSaleChangeTime": "##string",
+      "reasonWhyLost": "##string",
+      "reasonWhyWon": "##string",
+      "comment": "##string",
+      "paymentComments": "##string",
+      "installer": {
+        "installerId": "##string",
+        "name": "##string",
+        "vendorCode": "##string",
+        "compliance": [
+          {
+            "complianceDescription": "##string",
+            "complianceExpiryDate": "##string",
+            "complianceRegistrationNumber": "##string",
+            "limitOfCover": "#number"
+          }
+        ],
+        "status": "##string",
+        "RIM": "##string",
+        "VATRegisteredStatus": "#number",
+        "CISLevel": "##string"
+      },
+      "amendment": [
+        {
+          "reason": "##string",
+          "date": "##string",
+          "quantity": "#number",
+          "type": "##string"
+        }
+      ],
+      "homeSurvey": [
+        {
+          "dcMeasurementsCorrect": "#present",
+          "productDryFitModify": {},
+          "additionalWorks": {},
+          "requestedInstallDate": "##string",
+          "wetRoomTankingRequired": "#number",
+          "wetRoomFloorType": "#number",
+          "wetRoomGulleyType": "#number",
+          "additionalComments": "##string",
+          "totalAdditionalWorks": "#number",
+          "correct": "#number",
+          "planFit": "#number",
+          "solidSurfaceTemplateDate": "##string"
+        }
+      ],
+      "customerSatisfaction": {
+        "customerFeedback": "##string",
+        "bathroomFuture": "#present",
+        "bathroomProject": "#present",
+        "kitchenNBathroomProject": "#present",
+        "kitchenFuture": "#present",
+        "kitchenProject": "#present",
+        "likelyInFuture": "#present",
+        "unlikelyInFuture": "#present",
+        "ratingInstaller": "#present",
+        "ratingNCSC": "#present",
+        "ratingStore": "#present",
+        "recommended": "#present",
+        "satisfactionDate1": "#present",
+        "satisfactionDate2": "#present",
+        "satisfactionDate3": "#present"
+      },
+      "callDetails": {
+        "followUpCall1": "#ignore",
+        "followUpCall2": "#ignore",
+        "followUpCall3": "#ignore",
+        "followUpCall1Success": "#number",
+        "followUpCall2Success": "#number",
+        "followUpCall3Success": "#number"
+},
+      "remedials": [
+        {
+          "remedialId": "##string",
+          "deliveryCostsChargeableTo": "##string",
+          "labourCostsChargeableTo": "##string",
+          "stockCostsChargeableTo": "##string",
+          "deliveryCosts": "#number",
+          "labourCosts": "#number",
+          "stockCosts": "#number",
+          "deliveryDate": "##string",
+          "deliveryCostsDescription": "##string",
+          "labourCostsDescription": "##string",
+          "stockCostsDescription": "##string",
+          "installerPaid": "##string",
+          "origin": "##string",
+          "receivedDate": "##string",
+          "requestedDate": "##string",
+          "totalCost": "#number",
+          "totalLabourCost": "#number",
+          "type": "##string",
+          "payAmount": "#number",
+          "payDiffAuthorised": "#number",
+          "payDifference": "#number",
+          "payDifferenceReason": "##string",
+          "payDiffAuthorisedBy": "##string"
+        }
+      ]
+}
+],
+"nextPageReference": "##string"
+}

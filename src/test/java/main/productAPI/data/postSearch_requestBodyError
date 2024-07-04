@@ -1,0 +1,9 @@
+{
+  "operator": "OR",
+  "searchItems": [
+    {
+      "fieldName": "description",
+      "operator": "=",
+      "fieldValue": "Wickes"
+    }
+    }

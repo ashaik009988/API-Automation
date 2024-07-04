@@ -1,0 +1,15 @@
+{
+  "operator": "OR",
+  "searchItems": [
+    {
+      "fieldName": "approvalStatus",
+      "operator": "=",
+      "fieldValue": "approved"
+    },
+    {
+      "fieldName": "description",
+      "operator": "begins_with",
+      "fieldValue": "Energizer"
+    }
+  ]
+}
