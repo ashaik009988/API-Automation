@@ -1,0 +1,11 @@
+{
+  "locationNumber": "##string",
+  "quantity": 0,
+  "refundAmount": "##string",
+  "refundDateTime": "yyyy-MM-dd",
+  "refundQuantity": 0,
+  "saleMargin": "##string",
+  "salePrice": "##string",
+  "salesDate": "2023-05-31",
+  "sku": "##string"
+}

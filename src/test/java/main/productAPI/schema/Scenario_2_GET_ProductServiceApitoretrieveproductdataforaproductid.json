@@ -1,0 +1,155 @@
+{
+  "gpid": "##string",
+  "eventId": "##string",
+  "sku": "##string",
+  "description": "##string",
+  "approvalStatus": "##string",
+  "lifeCycleStatus": "##string",
+  "webCopy": "##string",
+  "featuresAndBenefits": [
+    "##string"
+  ],
+  "taxCode": "##string",
+  "mainUom": "##string",
+  "sellingUom": "##string",
+  "unitPriceUom": "##string",
+  "supplierCode": "##string",
+  "supplierPartNumber": "##string",
+  "keywords": [],
+  "cosshhRequired": "##boolean",
+  "dopRequired": "##boolean",
+  "epdRequired": "##boolean",
+  "techRequired": "##boolean",
+  "gilRequired": "##boolean",
+  "weeeRequired": "##boolean",
+  "weee": "##string",
+  "palletHi": "##string",
+  "palletTi": "##string",
+  "sellOnly": "##boolean",
+  "onlineDate": "##string",
+  "offlineDate": "##string",
+  "gtin": "##string",
+  "damAssetId": "##string",
+  "explosivePrecursor": "##string",
+  "singleUom": "##string",
+  "catalog": "##string",
+  "minOrderQuantity": "##string",
+  "equivalentDivisor": "##string",
+  "jdaChannelData": {
+    "status": "#ignore",
+    "catalogId": "##string",
+    "productCategory": [
+      "##string"
+    ],
+    "description": "##string",
+    "webCopy": "##string",
+    "minOrderQuantity": "##string",
+    "fulfilmentType": "##string",
+    "searchBoostValue": "##string",
+    "swapCode": "##string",
+    "qualityRanking": "##string",
+    "onlineDate": "##string",
+    "offlineDate": "##string",
+    "approvalStatus": "##string",
+    "brandName": "##string",
+    "sellingUom": "##string",
+    "unitPriceUom": "##string",
+    "equivalentDivisor": "##string",
+    "discontinued": "##string",
+    "sellOnly": "##string",
+    "baseProduct": "#ignore"
+  },
+  "singleDimensions": {
+    "length": "##string",
+    "height": "##string",
+    "width": "##string",
+    "weight": "##string",
+    "volume": "##string",
+    "quantity": "##string"
+  },
+  "innerDimensions": {
+    "length": "##string",
+    "height": "##string",
+    "width": "##string",
+    "weight": "##string",
+    "volume": "##string",
+    "quantity": "##string"
+  },
+  "outerDimensions": {
+    "length": "##string",
+    "height": "##string",
+    "width": "##string",
+    "weight": "##string",
+    "volume": "##string",
+    "quantity": "##string"
+  },
+  "palletDimensions": {
+    "length": "##string",
+    "height": "##string",
+    "width": "##string",
+    "weight": "##string",
+    "volume": "##string",
+    "quantity": "##string"
+  },
+  "jdaCaseDimensions": {
+    "length": "##string",
+    "height": "##string",
+    "width": "##string",
+    "weight": "##string",
+    "volume": "##string",
+    "quantity": "##string"
+  },
+  "explosiveOrPoison": "##string",
+  "components": [
+    {
+      "componentType": "##string",
+      "componentSupplier": "##string",
+      "componentGPID": "##string",
+      "componentQuantity": "##string",
+      "componentSKU": [
+        {
+          "componentSKUCode": "##string",
+          "componentSKUCatalogFamily": "##string"
+        }
+      ]
+    }
+  ],
+  "supplierData": [
+    {
+      "supplierPartNumber": "##string",
+      "supplierId": "##string",
+      "supplierGTIN": [
+        {
+          "GTIN": "##string",
+          "supplierUOM": "##string"
+        }
+      ]
+    }
+  ],
+  "coreProperties": {
+    "property": [
+      {
+        "corePropertyName": "##string",
+        "corePropertyValue": "##string",
+        "corePropertyType": "##string"
+      }
+    ]
+  },
+  "attributeGroup": [
+    {
+      "attributeGroupId": "##string",
+      "attributeGroupName": "##string",
+      "attribute": [
+        {
+          "attributeId": "##string",
+          "attributeName": "##string",
+          "attributeValue": "##string",
+          "attributeUnit": "##string"
+        }
+      ]
+    }
+  ],
+  "responseCode": "##string",
+  "status": "##string"
+
+}

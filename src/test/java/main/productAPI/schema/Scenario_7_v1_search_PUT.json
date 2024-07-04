@@ -1,0 +1,261 @@
+{
+  "content": [
+    {
+      "gpid": "##string",
+      "eventId": "##string",
+      "sku": "##string",
+      "description": "##string",
+      "approvalStatus": "##string",
+      "lifeCycleStatus": "##string",
+      "webCopy": "##string",
+      "featuresAndBenefits": [
+        "##present"
+      ],
+      "taxCode": "##string",
+      "mainUom": "##string",
+      "sellingUom": "##string",
+      "unitPriceUom": "##string",
+      "supplierCode": "##string",
+      "supplierPartNumber": "##string",
+      "keywords": [
+        "##present"
+      ],
+      "cosshhRequired": "##boolean",
+      "dopRequired": "##boolean",
+      "epdRequired": "##boolean",
+      "techRequired": "##boolean",
+      "gilRequired": "##boolean",
+      "weeeRequired": "##boolean",
+      "weee": "##string",
+      "palletHi": "##string",
+      "palletTi": "##string",
+      "sellOnly": "##boolean",
+      "onlineDate": "##string",
+      "offlineDate": "##string",
+      "gtin": "##string",
+      "damAssetId": "##string",
+      "explosivePrecursor": "##string",
+      "singleUom": "##string",
+      "catalog": "##string",
+      "minOrderQuantity": "##string",
+      "equivalentDivisor": "##string",
+      "jdaChannelData": {
+        "status": "##string",
+        "catalogId": "##string",
+        "productCategory": [
+          "##present"
+        ],
+        "description": "##string",
+        "webCopy": "##string",
+        "minOrderQuantity": "##string",
+        "fulfilmentType": "##string",
+        "searchBoostValue": "##string",
+        "swapCode": "##string",
+        "qualityRanking": "##string",
+        "onlineDate": "##string",
+        "offlineDate": "##string",
+        "approvalStatus": "##string",
+        "brandName": "##string",
+        "sellingUom": "##string",
+        "unitPriceUom": "##string",
+        "equivalentDivisor": "##string",
+        "discontinued": "##string",
+        "sellOnly": "##string",
+        "baseProduct": "##present"
+      },
+      "wickesChannelData": {
+        "status": "##string",
+        "catalogId": "##string",
+        "productCategory": [
+          "##present"
+        ],
+        "description": "##string",
+        "webCopy": "##string",
+        "minOrderQuantity": "##string",
+        "fulfilmentType": "##string",
+        "searchBoostValue": "##string",
+        "swapCode": "##string",
+        "qualityRanking": "##string",
+        "onlineDate": "##string",
+        "offlineDate": "##string",
+        "approvalStatus": "##string",
+        "brandName": "##string",
+        "sellingUom": "##string",
+        "unitPriceUom": "##string",
+        "equivalentDivisor": "##string",
+        "discontinued": "##string",
+        "sellOnly": "##string",
+        "baseProduct": "##present"
+      },
+      "explosiveOrPoison": "##string",
+      "singleDimensions": {
+        "length": "##string",
+        "height": "##string",
+        "width": "##string",
+        "weight": "##string",
+        "volume": "##string",
+        "quantity": "##string"
+      },
+      "innerDimensions": {
+        "length": "##string",
+        "height": "##string",
+        "width": "##string",
+        "weight": "##string",
+        "volume": "##string",
+        "quantity": "##string"
+      },
+      "outerDimensions": {
+        "length": "##string",
+        "height": "##string",
+        "width": "##string",
+        "weight": "##string",
+        "volume": "##string",
+        "quantity": "##string"
+      },
+      "palletDimensions": {
+        "length": "##string",
+        "height": "##string",
+        "width": "##string",
+        "weight": "##string",
+        "volume": "##string",
+        "quantity": "##string"
+      },
+      "jdaCaseDimensions": {
+        "length": "##string",
+        "height": "##string",
+        "width": "##string",
+        "weight": "##string",
+        "volume": "##string",
+        "quantity": "##string"
+      },
+      "images": {
+        "imageName": "##string",
+        "media": [
+          {
+            "mediaName": "##string",
+            "mediaItem": [
+              {
+                "mediaItemName": "##string",
+                "mediaItemUrl": "##string",
+                "mediaItemFormat": "##string",
+                "mediaItemMimeType": "##string"
+              }
+            ]
+          }
+        ]
+      },
+      "supplierData": [
+        {
+          "supplierPartNumber": "##string",
+          "supplierId": "##string",
+          "supplierGTIN": [
+            {
+              "GTIN": "##string",
+              "supplierUOM": "##string"
+            }
+          ]
+        }
+      ],
+      "coreProperties": {
+        "property": [
+          {
+            "corePropertyName": "##string",
+            "corePropertyValue": "##string",
+            "corePropertyType": "##string"
+          }
+        ]
+      },
+      "attributeGroup": [
+        {
+          "attributeGroupId": "##string",
+          "attributeGroupName": "##string",
+          "attribute": [
+            {
+              "attributeId": "##string",
+              "attributeName": "##string",
+              "attributeValue": "##string",
+              "attributeUnit": "##string"
+            }
+          ]
+        }
+      ],
+      "changeHistory": [
+        {
+          "date": "##string",
+          "change": "##string"
+        }
+      ],
+      "responseCode": "##string",
+      "status": "##string",
+      "attributes": {
+        "storeBarcode": "##string",
+        "unitOfMeasure": "##string",
+        "equivalentDivisorMeasure": "##string",
+        "productWeight": "##string",
+        "caseWeight": "##string",
+        "caseQty": "##string",
+        "caseStdPack": "##string",
+        "caseWeightUOM": "##string",
+        "warehouseNumber": "##string",
+        "rangingClass": "##string",
+        "secondarySupplier": "##string",
+        "attributeSKUType": [
+          "##present"
+        ],
+        "buyer": "##string",
+        "salesType": "##string",
+        "newProduct": "##string",
+        "businessUnit": "##string",
+        "analyst": "##string",
+        "pareto": "##string",
+        "productLifecycle": "##string",
+        "autoReplenMPQ": "##string",
+        "modelType": "##string",
+        "prfCode": "##string",
+        "serviceLevel": "##string",
+        "oldClass": "##string",
+        "collectCustDetail": "##string",
+        "freightClass": "##string",
+        "quarantine": "##string",
+        "iwSupplier": "##string",
+        "autoApply": "##string",
+        "code58_59": "##string",
+        "serviceClass": "##string",
+        "palletItem": "##string",
+        "containerType": "##string",
+        "distantShopping": "##string",
+        "palletOut": "##string",
+        "hdcProduct": "##string",
+        "hdcOnlySupplier": "##string",
+        "electricalItem": "##string",
+        "stockOffSale": "##string",
+        "timberPercentage": "##string",
+        "weeeCategory": "##string",
+        "webDisplay": "##string",
+        "countrySpecific": "##string",
+        "intrastatCode": "##string",
+        "intrastatMass": "##string",
+        "intrastatUnit": "##string",
+        "intrastatValue": "##string",
+        "batteryType": "##string",
+        "batteryWeight": "##string",
+        "batteryQty": "##string",
+        "recycBatteryQty": "##string",
+        "rtnsDiscountPercent": "##string",
+        "globalSourcing": "##string",
+        "multiChannelRange": "##string",
+        "deliverySymbol": "##string",
+        "nonRetail": "##string",
+        "supercessionSKU": "##string",
+        "supercessionFrom": "##string",
+        "dateDeleted": "##string",
+        "bulkSingleIndicator": "##ignore",
+        "relatedSingleSKU": "##number",
+        "bulkQty": "##number",
+        "lifecycleFrom": "##ignore",
+        "jdaSupplierPartNumber": "##string"
+      }
+    }
+  ],
+  "nextPageReference": "##string"
+}

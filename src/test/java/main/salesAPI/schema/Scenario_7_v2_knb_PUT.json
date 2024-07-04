@@ -1,0 +1,878 @@
+{
+  "transaction": {
+    "base_info": {
+      "event_date_time": "##string",
+      "processing_time": "##string",
+      "identifier": "##string",
+      "source_system_code": "##string"
+    },
+    "store": {
+      "code": "##string",
+      "name": "##string",
+      "Region": {
+        "name": "##string",
+        "division": {
+          "name": "##string",
+          "code": "##string"
+        }
+      }
+    },
+    "customer": {
+      "customer_id": "##string",
+      "title": "##string",
+      "first_name": "##string",
+      "last_name": "##string",
+      "middle_initials": "##string",
+      "communication": {
+        "home_phone": "##string",
+        "work_phone": "##string",
+        "work_phone_extension": "##string",
+        "cell_phone": "##string",
+        "email": "##string"
+      },
+      "address": {
+        "postcode": "##string",
+        "address_line_1": "##string",
+        "address_line_2": "##string",
+        "address_line_3": "##string",
+        "city": "##string",
+        "county": "##string",
+        "country": "##string"
+      }
+    },
+    "delivery_customer": {
+      "customer_id": "##string",
+      "title": "##string",
+      "first_name": "##string",
+      "last_name": "##string",
+      "middle_initials": "##string",
+      "communication": {
+        "home_phone": "##string",
+        "work_phone": "##string",
+        "work_phone_extension": "##string",
+        "cell_phone": "##string",
+        "email": "##string"
+      },
+      "address": {
+        "postcode": "##string",
+        "address_line_1": "##string",
+        "address_line_2": "##string",
+        "address_line_3": "##string",
+        "city": "##string",
+        "county": "##string",
+        "country": "##string"
+      }
+    },
+    "handled_by": {
+      "employee_number": "##string",
+      "username": "##string",
+      "email": "##string",
+      "job_title": {
+        "Description": "##string"
+      }
+    },
+    "design_consultant": {
+      "employee_number": "##string",
+      "username": "##string",
+      "email": "##string",
+      "job_title": {
+        "Description": "##string"
+      }
+    },
+    "Order_CPT": {
+      "employee_number": "##string",
+      "username": "##string",
+      "email": "##string",
+      "job_title": {
+        "Description": "##string"
+      }
+    },
+    "order_status": {
+      "code": "##string"
+    },
+    "category": {
+      "code": "##string"
+    },
+    "creation_week": 0,
+    "creation_period": 0,
+    "creation_year": 0,
+    "created_on": "##string",
+    "order_date": "##string",
+    "delivery_date": "##string",
+    "order_id": "##string",
+    "quote_id": "##string",
+    "quote_number": "##string",
+    "expiry": "##string",
+    "proposed_payment_mode": "##string",
+    "Ptc": "##string",
+    "Ptc_date": "##string",
+    "dry_fit_estimate": "##string",
+    "lead_id": "##string",
+    "honoured_until_date": "##string",
+    "number": 0,
+    "number_of_installation": 0,
+    "quote_status": {
+      "code": "##string"
+    },
+    "items": {
+      "installation_value": "##string",
+      "list_price": "##string",
+      "total_discount": "##string",
+      "total_price": "##string",
+      "company_offer_price": "##string",
+      "discount_description": "##string",
+      "discount_date_time": "##string",
+      "number_of_installation": "##string",
+      "line_items": [
+        {
+          "line_item_id": "##string",
+          "line_item_status": "##string",
+          "line_item_create_time": "##string",
+          "line_item_update_time": "##string",
+          "quantity": "##string",
+          "total_discount": "##string",
+          "total_sales_value": "##string",
+          "unit_list_price": "##string",
+          "unit_offer_price": "##string",
+          "line_item_type": "DRYFIT_ACTIVITY",
+          "dryfitAdditionalInfo": {
+            "line_item_comments": "##string",
+            "price_tier": "Area A",
+            "item_flags": [
+              "ADMIN"
+            ]
+          },
+          "product": {
+            "code": "##string",
+            "name": "##string",
+            "description": "##string",
+            "unit_list_price": "##string",
+            "tpguid": "##string",
+            "category": {
+              "description": "##string",
+              "unit_list_price": "##string",
+              "code": "##string",
+              "product_style": {
+                "description": "##string",
+                "code": "##string",
+                "product_subgroup": {
+                  "description": "##string",
+                  "code": "##string",
+                  "product_group": {
+                    "description": "##string",
+                    "code": "##string"
+                  }
+                }
+              }
+            }
+          },
+          "promotions_applied": [
+            {
+              "code": "##string",
+              "description": "##string",
+              "name": "##string",
+              "effective_from": "##string",
+              "effective_to": "##string",
+              "type": [
+                {
+                  "code": "##string",
+                  "description": "##string",
+                  "name": "##string"
+                }
+              ]
+            }
+          ],
+          "sku": "##string",
+          "sku_description": "##string"
+        }
+      ],
+      "discounts_applied": [
+        {
+          "description": "##string",
+          "code": "##string",
+          "discount_value": "##string",
+          "discount_date": "##string",
+          "name": "##string",
+          "type": "##string",
+          "colleague_employee_number": "##string",
+          "colleague_card_number": "##string"
+        }
+      ],
+      "promotions_applied": [
+        {
+          "code": "##string",
+          "description": "##string",
+          "name": "##string",
+          "effective_from": "##string",
+          "effective_to": "##string",
+          "type": [
+            {
+              "code": "##string",
+              "description": "##string",
+              "name": "##string"
+            }
+          ]
+        }
+      ],
+      "installations": [
+        {
+          "base_info": {
+            "event_date_time": "##string",
+            "processing_time": "##string",
+            "identifier": "##string",
+            "source_system_code": "##string"
+          },
+          "job_id": "##string",
+          "Description": "##string",
+          "quantity": "##string",
+          "price": "##string",
+          "planned_survey_date": "##string",
+          "actual_survey_date": "##string",
+          "planned_start_date": "##string",
+          "actual_start_date": "##string",
+          "planned_completion_date": "##string",
+          "actual_completion_date": "##string",
+          "dc_measurements_correct": "##string",
+          "plan_fit": "##string",
+          "Solid_surface_template_date": "##string",
+          "installation_catagory": {
+            "base_info": {
+              "event_date_time": "##string",
+              "processing_time": "##string",
+              "identifier": "##string",
+              "source_system_code": "##string"
+            },
+            "code": "##string",
+            "Description": "##string"
+          },
+          "installer": "##string"
+        }
+      ]
+    },
+    "fulfilment_list": [
+      {
+        "base_info": {
+          "event_date_time": "##string",
+          "processing_time": "##string",
+          "identifier": "##string",
+          "source_system_code": "##string"
+        },
+        "fulfilment_date": "##string",
+        "fulfilment_status": {
+          "code": "##string",
+          "description": "##string"
+        },
+        "fulfilment_method": {
+          "code": "##string",
+          "description": "##string"
+        },
+        "channel": {
+          "code": "##string",
+          "description": "##string",
+          "type": "##string",
+          "name": "##string"
+        },
+        "supplier": {
+          "base_info": {
+            "event_date_time": "##string",
+            "processing_time": "##string",
+            "identifier": "##string",
+            "source_system_code": "##string"
+          },
+          "supplier_code": "##string",
+          "company_details": {
+            "company": {
+              "name": "##string",
+              "trading_as": "##string",
+              "short_name": "##string",
+              "vat_registration_number": "##string",
+              "company_id": "##string",
+              "legal_entity": {
+                "base_info": {
+                  "event_date_time": "##string",
+                  "processing_time": "##string",
+                  "identifier": "##string",
+                  "source_system_code": "##string"
+                },
+                "id": "##string"
+              }
+            }
+          }
+        },
+        "stock_items": [
+          {
+            "skus": [
+              {
+                "sku1": "##string",
+                "sku2": "##string",
+                "sku3": "##string",
+                "sku4": "##string"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "activity_list": [
+      {
+        "type": {
+          "activity_type": {
+            "Description": "##string",
+            "code": "##string"
+          }
+        },
+        "activity_date": "##string"
+      }
+    ],
+    "installations": [
+      {
+        "base_info": {
+          "event_date_time": "##string",
+          "processing_time": "##string",
+          "identifier": "##string",
+          "source_system_code": "##string"
+        },
+        "job_id": "##string",
+        "Description": "##string",
+        "quantity": "##string",
+        "price": "##string",
+        "planned_survey_date": "##string",
+        "actual_survey_date": "##string",
+        "planned_start_date": "##string",
+        "actual_start_date": "##string",
+        "planned_completion_date": "##string",
+        "actual_completion_date": "##string",
+        "dc_measurements_correct": "##string",
+        "plan_fit": "##string",
+        "Solid_surface_template_date": "##string",
+        "installation_catagory": {
+          "base_info": {
+            "event_date_time": "##string",
+            "processing_time": "##string",
+            "identifier": "##string",
+            "source_system_code": "##string"
+          },
+          "code": "##string",
+          "Description": "##string"
+        },
+        "installer": "##string"
+      }
+    ],
+    "tenders": [
+      {
+        "cash_tender": {
+          "amount": "##string",
+          "timestamp": "##string",
+          "tender_id": "##string"
+        },
+        "cheque_tender": {
+          "amount": "##string",
+          "timestamp": "##string",
+          "tender_id": "##string"
+        },
+        "card_tender": {
+          "amount": "##string",
+          "timestamp": "##string",
+          "tender_id": "##string",
+          "hash": "##string",
+          "masked_pan": "##string",
+          "expiry_date": "##string",
+          "expiry_month": "##string",
+          "type": {
+            "code": "##string",
+            "description": "##string"
+          }
+        },
+        "finance_tender": {
+          "amount": "##string",
+          "timestamp": "##string",
+          "tender_id": "##string",
+          "expiry_date": "##string",
+          "max_loan_amt": "##string",
+          "max_loan_expiry_date": "##string",
+          "min_loan_amt": "##string",
+          "agreement_number": "##string",
+          "finance_decision": "##string",
+          "provider_name": "##string",
+          "terms_months": "##string",
+          "deferred_months": "##string",
+          "monthly_interest_rate": "##string",
+          "loan_amount": "##string",
+          "create_user": "##string",
+          "finance_status": {
+            "code": "##string",
+            "description": "##string",
+            "name": "##string",
+            "status_reason": "##string"
+          }
+        },
+        "gift_vouchers": {
+          "amount": "##string",
+          "timestamp": "##string",
+          "tender_id": "##string",
+          "voucher_number": "##string"
+        },
+        "gift_card": {
+          "amount": "##string",
+          "timestamp": "##string",
+          "tender_id": "##string",
+          "hash": "##string",
+          "expiry_month": "##string"
+        }
+      }
+    ],
+    "refund": [
+      {
+        "sku": "##string",
+        "refund_reason": "##string",
+        "refund_date": "##string",
+        "source_line_item_id": "##string",
+        "quantity": "##string",
+        "Unit_refund_price": "##string",
+        "total_refund_value": "##string",
+        "refund_status": "##string",
+        "store_id": "##string",
+        "product_seen_by": {
+          "username": "##string"
+        }
+      }
+    ],
+    "delivery_detail": {
+      "phone": "##string",
+      "email_address": "##string",
+      "postal_address": {
+        "address_line_1": "##string",
+        "address_line_2": "##string",
+        "address_line_3": "##string",
+        "town": "##string",
+        "city": "##string",
+        "county": "##string",
+        "country": "##string",
+        "postcode": "##string",
+        "street": "##string",
+        "building_number": "##string",
+        "building_name": "##string"
+      }
+    },
+    "customer_bill_detail": {
+      "phone": "##string",
+      "email_address": "##string",
+      "postal_address": {
+        "address_line_1": "##string",
+        "address_line_2": "##string",
+        "address_line_3": "##string",
+        "town": "##string",
+        "city": "##string",
+        "county": "##string",
+        "country": "##string",
+        "postcode": "##string",
+        "street": "##string",
+        "building_number": "##string",
+        "building_name": "##string"
+      },
+      "contact_details": {
+        "items": {
+          "postal_address": {
+            "address_line_1": "##string",
+            "address_line_2": "##string",
+            "address_line_3": "##string",
+            "town": "##string",
+            "city": "##string",
+            "county": "##string",
+            "country": "##string",
+            "postcode": "##string",
+            "street": "##string",
+            "building_number": "##string",
+            "building_name": "##string"
+          }
+        }
+      }
+    }
+  },
+  "quote": {
+    "base_info": {
+      "event_date_time": "##string",
+      "processing_time": "##string",
+      "identifier": "##string",
+      "source_system_code": "##string"
+    },
+    "store": {
+      "code": "##string",
+      "name": "##string",
+      "Region": {
+        "name": "##string",
+        "division": {
+          "name": "##string",
+          "code": "##string"
+        }
+      }
+    },
+    "handled_by": {
+      "employee_number": "##string",
+      "username": "##string",
+      "Job_Title": {
+        "Description": "##string"
+      }
+    },
+    "design_consultant": {
+      "employee_number": "##string",
+      "username": "##string",
+      "Job_Title": {
+        "Description": "##string"
+      }
+    },
+    "category": {
+      "code": "##string"
+    },
+    "channel": {
+      "code": "##string"
+    },
+    "asked_on": "##string",
+    "days_in_journey": "##string",
+    "creation_week": 0,
+    "creation_period": 0,
+    "creation_year": 0,
+    "created_on": "##string",
+    "order_date": "##string",
+    "delivery_date": "##string",
+    "quote_id": "##string",
+    "quote_number": "##string",
+    "expiry": "##string",
+    "proposed_payment_mode": "##string",
+    "Ptc": "##string",
+    "Ptc_date": "##string",
+    "Dry_fit_estimate": "##string",
+    "lead_id": "##string",
+    "honoured_until_date": "##string",
+    "number": 0,
+    "number_of_installation": 0,
+    "quote_status": {
+      "code": "##string"
+    },
+    "items": {
+      "installation_value": "##string",
+      "list_price": "##string",
+      "total_discount": "##string",
+      "total_price": "##string",
+      "company_offer_price": "##string",
+      "discount_description": "##string",
+      "discount_date_time": "##string",
+      "number_of_installation": "##string",
+      "line_items": [
+        {
+          "line_item_id": "##string",
+          "line_item_status": "##string",
+          "line_item_create_time": "##string",
+          "line_item_update_time": "##string",
+          "quantity": "##string",
+          "total_discount": "##string",
+          "total_sales_value": "##string",
+          "unit_list_price": "##string",
+          "unit_offer_price": "##string",
+          "line_item_type": "DRYFIT_ACTIVITY",
+          "dryfitAdditionalInfo": {
+            "line_item_comments": "##string",
+            "price_tier": "Area A",
+            "item_flags": [
+              "ADMIN"
+            ]
+          },
+          "product": {
+            "code": "##string",
+            "name": "##string",
+            "description": "##string",
+            "unit_list_price": "##string",
+            "tpguid": "##string",
+            "category": {
+              "description": "##string",
+              "unit_list_price": "##string",
+              "code": "##string",
+              "product_style": {
+                "description": "##string",
+                "code": "##string",
+                "product_subgroup": {
+                  "description": "##string",
+                  "code": "##string",
+                  "product_group": {
+                    "description": "##string",
+                    "code": "##string"
+                  }
+                }
+              }
+            }
+          },
+          "promotions_applied": [
+            {
+              "code": "##string",
+              "description": "##string",
+              "name": "##string",
+              "effective_from": "##string",
+              "effective_to": "##string",
+              "type": [
+                {
+                  "code": "##string",
+                  "description": "##string",
+                  "name": "##string"
+                }
+              ]
+            }
+          ],
+          "sku": "##string",
+          "sku_description": "##string"
+        }
+      ],
+      "discounts_applied": [
+        {
+          "description": "##string",
+          "code": "##string",
+          "discount_value": "##string",
+          "discount_date": "##string",
+          "name": "##string",
+          "type": "##string",
+          "colleague_employee_number": "##string",
+          "colleague_card_number": "##string"
+        }
+      ],
+      "promotions_applied": [
+        {
+          "code": "##string",
+          "description": "##string",
+          "name": "##string",
+          "effective_from": "##string",
+          "effective_to": "##string",
+          "type": [
+            {
+              "code": "##string",
+              "description": "##string",
+              "name": "##string"
+            }
+          ]
+        }
+      ],
+      "installations": [
+        {
+          "base_info": {
+            "event_date_time": "##string",
+            "processing_time": "##string",
+            "identifier": "##string",
+            "source_system_code": "##string"
+          },
+          "job_id": "##string",
+          "Description": "##string",
+          "quantity": "##string",
+          "price": "##string",
+          "planned_survey_date": "##string",
+          "actual_survey_date": "##string",
+          "planned_start_date": "##string",
+          "actual_start_date": "##string",
+          "planned_completion_date": "##string",
+          "actual_completion_date": "##string",
+          "dc_measurements_correct": "##string",
+          "plan_fit": "##string",
+          "Solid_surface_template_date": "##string",
+          "installation_catagory": {
+            "base_info": {
+              "event_date_time": "##string",
+              "processing_time": "##string",
+              "identifier": "##string",
+              "source_system_code": "##string"
+            },
+            "code": "##string",
+            "Description": "##string"
+          },
+          "installer": "##string"
+        }
+      ]
+    },
+    "activity_list": [
+      {
+        "type": {
+          "activity_type": {
+            "Description": "##string",
+            "code": "##string"
+          }
+        },
+        "activity_date": "##string"
+      }
+    ]
+  },
+  "lead": {
+    "base_info": {
+      "event_date_time": "##string",
+      "processing_time": "##string",
+      "identifier": "##string",
+      "source_system_code": "##string"
+    },
+    "customer": {
+      "person": {
+        "id": "##string",
+        "contact_details": [
+          {
+            "email_address": {
+              "type": [
+                "##string"
+              ],
+              "value": "##string"
+            },
+            "phone_number": {
+              "type": [
+                "##string"
+              ],
+              "value": "##string"
+            },
+            "postal_address": {
+              "structured_address": {
+                "address_line_1": "##string",
+                "address_line_2": "##string",
+                "address_line_3": "##string",
+                "town": "##string",
+                "city": "##string",
+                "county": "##string",
+                "country": "##string",
+                "postcode": "##string",
+                "street": "##string",
+                "building_number": "##string",
+                "building_name": "##string"
+              },
+              "type": "##string"
+            },
+            "website": {
+              "value": "##string"
+            }
+          }
+        ],
+        "name": {
+          "title": "##string",
+          "first_name": "##string",
+          "middle_names": [
+            {
+              "M1": "##string",
+              "M2": "##string"
+            }
+          ],
+          "last_name": "##string",
+          "preferred_name": "##string",
+          "suffix": "##string"
+        }
+      },
+      "marketing_consent": "##string"
+    },
+    "lead_customer": {
+      "customer_id": "##string",
+      "title": "##string",
+      "first_name": "##string",
+      "last_name": "##string",
+      "middle_initials": "##string",
+      "communication": {
+        "home_phone": "##string",
+        "work_phone": "##string",
+        "work_phone_extension": "##string",
+        "cell_phone": "##string",
+        "email": "##string"
+      },
+      "address": {
+        "postcode": "##string",
+        "address_line_1": "##string",
+        "address_line_2": "##string",
+        "address_line_3": "##string",
+        "city": "##string",
+        "county": "##string",
+        "country": "##string"
+      }
+    },
+    "store": {
+      "code": "##string",
+      "name": "##string",
+      "Region": {
+        "name": "##string",
+        "division": {
+          "name": "##string",
+          "code": "##string"
+        }
+      }
+    },
+    "lead_status": {
+      "code": "##string"
+    },
+    "type": {
+      "code": "##string"
+    },
+    "creation_week": 0,
+    "creation_period": 0,
+    "creation_year": 0,
+    "created_on": "##string",
+    "lead_id": "##string",
+    "user_notes": "##string",
+    "taken_by": {
+      "employee_number": "##string",
+      "username": "##string",
+      "job_title": {
+        "Description": "##string"
+      }
+    },
+    "design_consultant": {
+      "employee_number": "##string",
+      "username": "##string",
+      "job_title": {
+        "Description": "##string"
+      }
+    },
+    "activity_list": [
+      {
+        "type": {
+          "activity_type": {
+            "Description": "##string",
+            "code": "##string"
+          }
+        },
+        "activity_date": "##string"
+      }
+    ],
+    "lead_source": {
+      "code": "##string"
+    },
+    "lead_channel": {
+      "code": "##string"
+    }
+  },
+  "Supplier_order": {
+    "base_info": {
+      "event_date_time": "##string",
+      "processing_time": "##string",
+      "identifier": "##string",
+      "source_system_code": "##string"
+    },
+    "Order_number": "##string",
+    "Order_id": "##string",
+    "customer_Order_id": "##string",
+    "store_code": "##string",
+    "last_amendment_date": "##string",
+    "Order_status": {
+      "code": "##string"
+    },
+    "supplier": {
+      "code": "##string",
+      "Company_name": "##string"
+    },
+    "items": {
+      "list_price": "##string",
+      "total_discount": "##string",
+      "total_price": "##string",
+      "line_items": [
+        {
+          "quantity": "##string",
+          "total_discount": "##string",
+          "total_sales_value": "##string",
+          "unit_list_price": "##string",
+          "unit_offer_price": "##string",
+          "line_item_status": "##string",
+          "line_item_create_time": "##string",
+          "line_item_update_time": "##string",
+          "line_item_id": "##string",
+          "sku": "##string",
+          "sku_description": "##string"
+        }
+      ]
+    }
+  }
+}

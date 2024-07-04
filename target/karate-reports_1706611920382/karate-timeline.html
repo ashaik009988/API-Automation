@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/main\/productv2\/ProductV2_Negative[1:10]","start":1704719631896,"end":1704719634368,"title":"src\/test\/java\/main\/productv2\/ProductV2_Negative[1:10] 18:43:51.896-18:43:54.368 1 Gets V2 product details for multiple skus at the same time (404 invalid url)"},{"id":2,"group":1,"content":"src\/test\/java\/main\/productv2\/ProductV2_Negative[2:18]","start":1704719634382,"end":1704719635074,"title":"src\/test\/java\/main\/productv2\/ProductV2_Negative[2:18] 18:43:54.382-18:43:55.074 2 Gets V2 product details for multiple skus at the same time (403 path variables is not entered)"},{"id":3,"group":1,"content":"src\/test\/java\/main\/productv2\/ProductV2_Negative[3:28]","start":1704719635084,"end":1704719635866,"title":"src\/test\/java\/main\/productv2\/ProductV2_Negative[3:28] 18:43:55.084-18:43:55.866 3 Gets V2 product details for a single sku by its GTIN (404 invalid url)"},{"id":4,"group":1,"content":"src\/test\/java\/main\/productv2\/ProductV2_Negative[4:36]","start":1704719635874,"end":1704719636637,"title":"src\/test\/java\/main\/productv2\/ProductV2_Negative[4:36] 18:43:55.874-18:43:56.637 4 Gets V2 product details for a single sku by its GTIN (404, path variable is not entered)"},{"id":5,"group":1,"content":"src\/test\/java\/main\/productv2\/ProductV2_Negative[5:45]","start":1704719636647,"end":1704719637288,"title":"src\/test\/java\/main\/productv2\/ProductV2_Negative[5:45] 18:43:56.647-18:43:57.288 5 Gets V2 product details for a single sku by its GTIN"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

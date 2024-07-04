@@ -1,0 +1,23 @@
+{
+  "content": [
+    {
+      "recordDate": "#present",
+      "locationNumber": "#present",
+      "sku": "#present",
+      "eventNumber": "#present",
+      "priority": "#present",
+      "newItemIndicator": "##boolean",
+      "newPrice": "#present",
+      "basePrice": "#present",
+      "wasPrice": "##string",
+      "priceChangeType": "##string",
+      "promotionalMessage": "##string",
+      "startDate": "#present",
+      "endDate": "#present",
+      "buyQuantity": "#present",
+      "getQuantity": "#present",
+      "quantityBreakId": "#present"
+    }
+  ],
+  "nextPageReference": "##string"
+}

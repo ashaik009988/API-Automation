@@ -1,0 +1,18 @@
+{
+  "content": [
+    {
+      "locationNumber": "##string",
+      "quantity": "##number",
+      "refundAmount": "##string",
+      "refundDateTime":"##string",
+      "refundQuantity": "##number",
+      "responseCode": "##string",
+      "saleMargin": "##string",
+      "salePrice": "##string",
+      "salesDate": "##string",
+      "sku": "##string",
+      "status": "##string"
+    }
+  ],
+  "nextPageReference": "##string"
+}

@@ -1,0 +1,25 @@
+{
+  "tender": {
+    "tender_id": "##string",
+    "amount": "##string",
+    "payment_date": "##string",
+    "tender_type": "##string",
+    "payment_basket_id": "##string",
+    "payment_description": "##string",
+    "payment_source_description": "##string",
+    "card": {
+      "card_type": "##string",
+      "card_hash": "##string",
+      "legacy_card_hash": "##string",
+      "masked_pan": "3345******55788, *****33454557888790 , 334545578******, *345*52***11236",
+      "expiry_month": "##string",
+      "auth_desc": "##string",
+      "additional_transaction_details": [
+        {
+          "key": "##string",
+          "value": "##string"
+        }
+      ]
+    }
+  }
+}

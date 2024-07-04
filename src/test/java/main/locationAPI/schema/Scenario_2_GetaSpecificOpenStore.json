@@ -1,0 +1,80 @@
+{
+  "locationNumber": "##string",
+  "address": {
+    "country": "##string",
+    "county": "##string",
+    "latitude": "##string",
+    "line1": "##string",
+    "line2": "##string",
+    "line3": "##string",
+    "longitude": "##string",
+    "postcode": "##string",
+    "town": "##string"
+  },
+  "comment": "##string",
+  "contacts": [
+    {
+      "contactMethod": "##string",
+      "contactValue": "##string"
+    }
+  ],
+  "features": [],
+  "locationName": "##string",
+  "locationType": "##string",
+  "locationSubType": "##string",
+  "operatingHours": [
+    {
+      "day": "##string",
+      "scheduleType": "##string",
+      "openingTime": "##string",
+      "closingTime": "##string"
+    }
+  ],
+  "specialOperatingHours": [
+    {
+      "scheduleType": "##string",
+      "openingTime": "##string",
+      "closingTime": "##string",
+      "eventDate": "##string",
+      "publishDate": "##string",
+      "message": "##string",
+      "specialOperatingHoursId": "##string"
+    }
+  ],
+  "operatingStatus": "##string",
+  "organisationName": "##string",
+  "ranges": [
+    {
+      "rangeName": "##string",
+      "rangeDescription": "##string",
+      "rangeId": "##string"
+    }
+  ],
+  "regionalDirectorCode": "##string",
+  "regionCode": "##string",
+  "regionGroup": "##string",
+  "satNavPostcode": "##string",
+  "showOn": "##string",
+  "targetClosingDate": "##string",
+  "targetOpeningDate": "##string",
+  "webDescription": "##string",
+  "webDisplayName": "##string",
+  "fulfilmentConfig": {
+    "deliveryRadii": [
+      {
+        "serviceType": "#present",
+        "radius": "#present"
+      }
+    ],
+    "deliveryPostCodeAllowList": []
+  },
+  "auditEntries": [
+    {
+      "userId": "##string",
+      "timestamp": "##string",
+      "action": "##string"
+    }
+  ],
+  "locationId": "##string",
+  "branchGLN": "#number"
+}

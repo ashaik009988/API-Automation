@@ -1,0 +1,265 @@
+{
+  "salesTransactionList": [{
+    "offer_price": "25.00",
+    "creation_date_time": "#(commonData.creationDateTime)",
+    "transaction_number": "#(commonData.transactionNumber)",
+    "total_discount": "2.00",
+    "total_list_price": "string",
+    "total_price": "string",
+    "project_savings": "string",
+    "total_savings": "2.00",
+    "delivery_price": "12.00",
+    "delivery_type": "string",
+    "store_manager_code": "string",
+    "customer_code": "string",
+    "order_store_code": "#(commonData.storeCode)",
+    "order_activity": "string",
+    "tenders": [
+      {
+        "tender_id": "1",
+        "amount": "12.00",
+        "payment_date": "#(commonData.paymentDate)",
+        "tender_type": "Cr/Dr Card",
+        "payment_basket_id": " ",
+        "payment_description": "3",
+        "payment_source_description": "Cr/Dr Card",
+        "card": {
+          "card_type": "VISA",
+          "card_hash": "45654132154564**",
+          "masked_pan": "911r>Su,W.5FJrj2473",
+          "expiry_month": "0225",
+          "auth_desc": "12345654564587",
+          "additional_transaction_details": [
+            {
+              "key": "key1",
+              "value": "value1"
+            }
+          ]
+        }
+      }
+    ],
+    "selling_channel": "string",
+    "device_type": "string",
+    "fulfilment_type": "string",
+    "order_category": "string",
+    "transaction_level_discount": "string",
+    "till_number": "001",
+    "basket_id": "string",
+    "source_description": "string",
+    "colleague_employee_number": "string",
+    "om_order_number": "string",
+    "hybris_order_number": "string",
+    "external_document": "string",
+    "barcode_scanned": "965645654123",
+    "till_receipt_number": "#(commonData.tillReceiptNumber)",
+    "margin_ex_vat": "string",
+    "gift_token_used": "string",
+    "coupon_used": "456542345644568",
+    "collection_time": "string",
+    "picked_time": "string",
+    "transaction_code": "string",
+    "cashier_id": "string",
+    "supervisor": "string",
+    "void_supervisor_id": "string",
+    "misc_reason_code": "string",
+    "misc_reason_desc": "string",
+    "od_reason_code": "string",
+    "od_reason_desc": "string",
+    "completed": "string",
+    "parked": "string",
+    "recalled": "string",
+    "online": "string",
+    "voided": "string",
+    "training": "string",
+    "required_delivery_date": "string",
+    "delivery_status": "string",
+    "line_items": [
+      {
+        "discounts": [
+          {
+            "description": "string",
+            "unit": "string",
+            "value": "string",
+            "date_time": "string",
+            "promotion_code": "string",
+            "product_level_discounts": "string",
+            "deal_group_discount": "string",
+            "deal_group_discount_code": "string",
+            "hierarchy_spend_discount": "string",
+            "hierarchy_spend_discount_code": "string",
+            "multi_buy_discount": "string",
+            "multi_buy_discount_code": "string",
+            "quantity_break_discount": "string",
+            "quantity_break_discount_code": "string",
+            "price_temp_value": "string",
+            "price_temp_value_code": "string",
+            "web_discount": "string",
+            "web_discount_code": "string",
+            "web_discount_category": "string",
+            "colleague_discount": "string",
+            "colleague_discount_code": "string",
+            "product_level_discount": "string",
+            "product_level_discount_code": "string"
+          }
+        ],
+        "line_item_code": "string",
+        "product_code": "string",
+        "date_time": "string",
+        "quantity": "string",
+        "total_discount": "string",
+        "total_offer_price": "string",
+        "unit_list_price": "string",
+        "unit_offer_price": "string",
+        "order_fulfilment": "string",
+        "fulfilment_store_id": "string",
+        "delivery_date_time": "string",
+        "line_reversal": "string",
+        "sales_type": "string",
+        "refund": {
+          "refund_reason": "string",
+          "actual_reason": "string",
+          "refund_reason_code": "string",
+          "delivery_charge_refund": "string",
+          "refund_supervisor": "string",
+          "source_transaction_number": "string",
+          "source_transaction_date": "string",
+          "source_store_number": "string",
+          "source_till_number": "string"
+        },
+        "vat_details": {
+          "vat_type": "standard_rate",
+          "vat_rate": 17.5,
+          "vat_amount": 1066
+        },
+        "override": {
+          "override_code": "3",
+          "override_description": "Refund Price Difference",
+          "item_override_value": "17.01",
+          "override_disc_amt_ex_VAT": "0.00",
+          "override_supervisor": "094"
+        }
+      }
+    ],
+    "discounts": [
+      {
+        "description": "Buy 3 Get 1 Free",
+        "unit": "GBP",
+        "value": "36.00",
+        "date_time": "yyyy-mm-ddT00:00:00Z",
+        "promotion_code": "string",
+        "product_level_discounts": "36.00",
+        "deal_group_discount": "string",
+        "deal_group_discount_code": "string",
+        "hierarchy_spend_discount": "0.00",
+        "hierarchy_spend_discount_code": "string",
+        "multi_buy_discount": "0.00",
+        "multi_buy_discount_code": "string",
+        "quantity_break_discount": "string",
+        "quantity_break_discount_code": "string",
+        "price_temp_value": "string",
+        "price_temp_value_code": "string",
+        "web_discount": "string",
+        "web_discount_code": "string",
+        "web_discount_category": "string",
+        "colleague_discount": "string",
+        "colleague_discount_code": "string",
+        "product_level_discount": "",
+        "product_level_discount_code": "TD_ProductBOGOFPromotion"
+      }
+    ],
+    "rejects": [
+      {
+        "transaction_void": "string",
+        "sequence_number": "string",
+        "reject_text": "string",
+        "reject_manager": "string"
+      }
+    ],
+    "price_promises": [
+      {
+        "customer_name": "string",
+        "customer_address_line1": "string",
+        "customer_address_line2": "string",
+        "customer_address_line3": "string",
+        "customer_address_line4": "string",
+        "customer_address_postcode": "string",
+        "competitor_name": "string",
+        "competitor_address_line1": "string",
+        "competitor_address_line2": "string",
+        "competitor_address_line3": "string",
+        "competitor_address_line4": "string",
+        "competitor_address_postcode": "string",
+        "competitor_price": "string"
+      }
+    ],
+    "coupons": [
+      {
+        "coupon_code": "string",
+        "coupon_description": "string",
+        "coupon_status": "string",
+        "coupon_start_date": "string",
+        "market_ref": "string",
+        "serial_number": "string",
+        "coupon_discount_amount": "string"
+      }
+    ],
+    "gift_tokens": [
+      {
+        "loyalty_serial_number": "string",
+        "sold_or_redeemed": "string"
+      }
+    ],
+    "vouchers": [
+      {
+        "loyalty_serial_number": "string",
+        "serial_number": "string",
+        "sold_or_redeemed": "string",
+        "voucher_number": "string",
+        "voucher_postcode": "string",
+        "applied_on": "string",
+        "line_item_code": "string",
+        "product_code": "string",
+        "voucher_name": "string",
+        "voucher_discount": "string",
+        "voucher_discount_pct": "string"
+      }
+    ],
+    "refund": {
+      "refund_reason": "string",
+      "actual_reason": "string",
+      "refund_reason_code": "string",
+      "delivery_charge_refund": "string",
+      "refund_supervisor": "string",
+      "source_transaction_number": "string",
+      "source_transaction_date": "string",
+      "source_store_number": "string",
+      "source_till_number": "string"
+    },
+    "customer": {
+      "first_name": "DeepakPrabhu",
+      "last_name": "Arumugam",
+      "email": "deeps@xyz.com",
+      "code": "454",
+      "mobile_phone": "9843285540",
+      "home_phone": "string",
+      "invoice_address_line1": "Rokeby close",
+      "invoice_address_line2": "Door 6",
+      "invoice_address_town": "Bracknell",
+      "invoice_address_county": "string",
+      "invoice_address_country": "string",
+      "invoice_address_postcode": "string",
+      "delivery_address_line1": "string",
+      "delivery_address_line2": "string",
+      "delivery_address_town": "string",
+      "delivery_address_county": "string",
+      "delivery_address_country": "string",
+      "delivery_address_postcode": "string"
+    },
+    "checkoutStatus": "string",
+    "refund_adjustments": {
+      "sales": "string",
+      "delivery": "string"
+  }
+  }
+  ]
+}

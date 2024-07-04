@@ -1,0 +1,31 @@
+{
+  "installer_id": "1441009",
+  "installer_date_created": "2023-06-31T09:44:00.387",
+  "installer_mobile": "456514246464",
+  "installer_email": "TestWickes@gmail.com",
+  "installer_status": "INACTIVE",
+  "installer_country": "UK",
+  "installer_base_store_id": "8554",
+  "installer_rim_id": "123123",
+  "installer_category_kitchens": "0",
+  "installer_category_bathrooms": "0",
+  "installer_kitchen_fit_teams": "0",
+  "installer_kitchen_fit_limit": "0",
+  "installer_bathroom_fit_teams": "0",
+  "installer_bathroom_fit_limit": "1",
+  "installer_regional_installation_manager_name": "Deepak Prabhu Test ",
+  "installer_CIS_level": "S",
+  "installer_CIS_level_description": "Standard",
+  "compliance": [
+    {
+      "installer_compliance": "Employer Wickes",
+      "installer_compliance_expiry_date": "2025-06-05T00:00:00.000Z",
+      "installer_compliance_registration_number": "2"
+    },
+    {
+      "installer_compliance": "Employers Loyalty",
+      "installer_compliance_expiry_date": "2025-06-05T00:00:00.000Z",
+      "installer_compliance_registration_number": "6"
+    }
+  ]
+}

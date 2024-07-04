@@ -1,0 +1,195 @@
+{
+  "jobId": "509610",
+  "number": "6219672",
+  "orderId": "3109500",
+  "salesOrderDate": "2023-08-08T11:01:10.922Z",
+  "quoteId": "3037043",
+  "installationDescription": "string",
+  "installationOrderDate": "2023-08-08T11:01:10.922Z",
+  "installationValue": 0,
+  "installationStatusDescription": "Job Complete",
+  "installationDeliveryDate": "2023-08-08T11:01:10.922Z",
+  "installationCancelledDate": "2023-08-08T11:01:10.922Z",
+  "installationCancelledReason": "string",
+  "orderInstallationNotes": "string",
+  "quoteInstallationNotes": "string",
+  "installationCategory": "Kitchen",
+  "preferredStartDate": "2023-08-08T11:01:10.922Z",
+  "actualCompletionDate": "2023-08-08T11:01:10.922Z",
+  "plannedSurveyDate": "2023-08-08T11:01:10.922Z",
+  "revisedCompletionDate": "2023-08-08T11:01:10.922Z",
+  "actualStartDate": "2023-08-08T11:01:10.922Z",
+  "actualSurveyDate": "2023-08-08T11:01:10.922Z",
+  "adr": 0,
+  "amountOutstanding": 0,
+  "saleAmount": 0,
+  "storeId": "8169",
+  "installationType": "string",
+  "deliveryChargeExempt": 0,
+  "deliveryInformed": 0,
+  "dryFitAdminChangeOrder": 0,
+  "plannedStartDate": "2023-08-08T11:01:10.922Z",
+  "plannedCompletionDate": "2023-08-08T11:01:10.922Z",
+  "emailedDate": "2023-08-08T11:01:10.922Z",
+  "paidDate": "2023-08-08T11:01:10.922Z",
+  "installationLabourCost": 0,
+  "requestedDate": "2023-08-08T11:01:10.922Z",
+  "selectedDate": "2023-08-08T11:01:10.922Z",
+  "confirmedDate": "2023-08-08T11:01:10.922Z",
+  "dateCreated": "2023-08-08T11:01:10.922Z",
+  "payRequestedDate": "2023-08-08T11:01:10.922Z",
+  "quoteOfferPrice": 0,
+  "orderOfferPrice": 0,
+  "HDIOrderCode": "string",
+  "miscDateHoldEnds": "2023-08-08T11:01:10.922Z",
+  "miscDateOnHold": "2023-08-08T11:01:10.922Z",
+  "miscDateSuspendEnds": "2023-08-08T11:01:10.922Z",
+  "lastSaleChangeTime": "2023-08-08T11:01:10.922Z",
+  "reasonWhyLost": "string",
+  "reasonWhyWon": "string",
+  "comment": "string",
+  "paymentComments": "string",
+  "installer": {
+    "installerId": "string",
+    "name": "string",
+    "email": [
+      {
+        "emailType": "string",
+        "value": "string"
+      }
+    ],
+    "Phone": [
+      {
+        "phoneType": "string",
+        "value": "string"
+      }
+    ],
+    "vendorCode": "string",
+    "compliance": [
+      {
+        "complianceDescription": "string",
+        "complianceExpiryDate": "2023-08-08T11:01:10.922Z",
+        "complianceRegistrationNumber": "string",
+        "limitOfCover": 0
+      }
+    ],
+    "status": "string",
+    "RIM": "string",
+    "VATRegisteredStatus": 0,
+    "CISLevel": "string"
+  },
+  "orderSkillSet": [
+    "kitchens"
+  ],
+  "amendment": [
+    {
+      "reason": "string",
+      "date": "2023-08-08T11:01:10.922Z",
+      "quantity": 0,
+      "type": "string"
+    }
+  ],
+  "specialistWorksEstimate": {
+    "specialistWorkNotes": "string",
+    "specialistWorkTotalEstimate": "string",
+    "quotespecialistWorkTotalEstimate": "string",
+    "specialistWorks": [
+      {
+        "description": "string",
+        "category": "string",
+        "quantity": 0,
+        "itemPrice": "string",
+        "itemTotalPrice": "string"
+      }
+    ]
+  },
+  "homeSurvey": [
+    {
+      "dcMeasurementsCorrect": 0,
+      "productDryFitModify": {
+        "quantityToAdd": "string",
+        "quantityToRemove": "string",
+        "lineItems": [
+          {
+            "lineItemDescription": "string",
+            "quanitity": 0,
+            "addRemove": "string"
+          }
+        ]
+      },
+      "additionalWorks": {
+        "additionalWorksTotal": "string",
+        "additionalWorkItems": [
+          {
+            "itemNo": 0,
+            "aditionalWorkDescription": "string",
+            "category": "string",
+            "quantity": 0,
+            "lineItemTotalprice": 0
+          }
+        ]
+      },
+      "requestedInstallDate": "2023-08-08T11:01:10.922Z",
+      "wetRoomTankingRequired": 0,
+      "wetRoomFloorType": 0,
+      "wetRoomGulleyType": 0,
+      "additionalComments": "string",
+      "totalAdditionalWorks": 0,
+      "correct": 0,
+      "planFit": 0,
+      "solidSurfaceTemplateDate": "2023-08-08T11:01:10.922Z"
+    }
+  ],
+  "customerSatisfaction": {
+    "customerFeedback": "string",
+    "bathroomFuture": 0,
+    "bathroomProject": 0,
+    "kitchenNBathroomProject": 0,
+    "kitchenFuture": 0,
+    "kitchenProject": 0,
+    "likelyInFuture": 0,
+    "unlikelyInFuture": 0,
+    "ratingInstaller": 0,
+    "ratingNCSC": 0,
+    "ratingStore": 0,
+    "recommended": 0,
+    "satisfactionDate1": "2023-08-08T11:01:10.922Z",
+    "satisfactionDate2": "2023-08-08T11:01:10.922Z",
+    "satisfactionDate3": "2023-08-08T11:01:10.922Z"
+  },
+  "callDetails": {
+    "followUpCall1": "2023-08-08T11:01:10.922Z",
+    "followUpCall2": "2023-08-08T11:01:10.922Z",
+    "followUpCall3": "2023-08-08T11:01:10.922Z",
+    "followUpCall1Success": 0,
+    "followUpCall2Success": 0,
+    "followUpCall3Success": 0
+  },
+  "remedials": [
+    {
+      "remedialId": "string",
+      "deliveryCostsChargeableTo": "string",
+      "labourCostsChargeableTo": "string",
+      "stockCostsChargeableTo": "string",
+      "deliveryCosts": 0,
+      "labourCosts": 0,
+      "stockCosts": 0,
+      "deliveryDate": "2023-08-08T11:01:10.922Z",
+      "deliveryCostsDescription": "string",
+      "labourCostsDescription": "string",
+      "stockCostsDescription": "string",
+      "installerPaid": "2023-08-08T11:01:10.923Z",
+      "origin": "string",
+      "receivedDate": "2023-08-08T11:01:10.923Z",
+      "requestedDate": "2023-08-08T11:01:10.923Z",
+      "totalCost": 0,
+      "totalLabourCost": 0,
+      "type": "string",
+      "payAmount": 0,
+      "payDiffAuthorised": 0,
+      "payDifference": 0,
+      "payDifferenceReason": "string",
+      "payDiffAuthorisedBy": "string"
+    }
+  ]
+}

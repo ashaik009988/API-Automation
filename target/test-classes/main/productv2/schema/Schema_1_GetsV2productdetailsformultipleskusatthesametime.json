@@ -1,0 +1,25 @@
+[
+  {
+    "skuId": "##string",
+    "name": "##string",
+    "webName": "##string",
+    "description": "##string",
+    "featuresAndBenefits": [
+      "##string"
+    ],
+    "keywords": [
+      "##string"
+    ],
+    "damAssetId": "##string",
+    "gtin": "##string",
+    "lastUpdatedTime": "##string",
+    "images": {
+      "imageName": "##string",
+      "media": [
+        {
+          "mediaName": "##string"
+        }
+      ]
+    }
+  }
+]
